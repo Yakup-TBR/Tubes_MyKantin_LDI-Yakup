@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Detail_Makanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Detail_Makanan.Designer.cs">
+      <DependentUpon>Detail_Makanan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Favorit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Detail_Makanan.resx">
+      <DependentUpon>Detail_Makanan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Favorit.resx">
       <DependentUpon>Favorit.cs</DependentUpon>
     </EmbeddedResource>
@@ -315,6 +324,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Makanan_putih.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hati_hitam.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
