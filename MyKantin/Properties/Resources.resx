@@ -136,23 +136,14 @@
   <data name="Es_teh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Es_teh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Soto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Soto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Sate_ayam1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sate_ayam1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Esbuah_pelangi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Esbuah_pelangi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="omJenggot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\omJenggot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="WhatsApp Image 2023-04-05 at 11.481" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2023-04-05 at 11.48.001.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Minum_makan_saja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Minum_makan_saja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kedai yummy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kedai yummy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,14 +151,17 @@
   <data name="kotakBesar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kotakBesar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="merchant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\merchant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Kedai ma ning_pilij" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kedai ma ning_pilij.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kedai_pilih" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kedai_pilih.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="garis_hitam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\garis_hitam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Minum_makan_saja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minum_makan_saja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bayarsekrh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bayarsekrh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,8 +181,11 @@
   <data name="muka" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\muka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rendang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rendang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kotakTumpul_kecil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kotakTumpul_kecil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="total harga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\total harga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,17 +193,20 @@
   <data name="ovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="promo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\promo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="garis_hitam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\garis_hitam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sate_ayam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sate_ayam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gopay 100" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gopay 100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Soto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Soto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Hati_hitam" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hati_hitam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Makanan_putih" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Makanan_putih.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ikon_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ikon_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,6 +226,9 @@
   <data name="qris" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\qris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DAPOER EMAKQ_pilih" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DAPOER EMAKQ_pilih.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Kedai ma ning" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kedai ma ning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -244,9 +247,6 @@
   <data name="Minum_makan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Minum_makan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Putih_minum" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Putih_minum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="nasgor_spesial" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nasgor_spesial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -256,11 +256,17 @@
   <data name="sate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EsCincau_milo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\EsCincau_milo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kotak_kuantitas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kotak_kuantitas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Makanan_putih" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Makanan_putih.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bakso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bakso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gopay 100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gopay 100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DAPOER EMAKQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DAPOER EMAKQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -277,28 +283,25 @@
   <data name="Air_mineral" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Air_mineral.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bakso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bakso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EsCincau_milo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EsCincau_milo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="merchant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\merchant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="omJenggot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\omJenggot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Putih_minum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Putih_minum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="promo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\promo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Kotak_keranjang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kotak_keranjang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Kotak_kuantitas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kotak_kuantitas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DAPOER EMAKQ_pilih" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DAPOER EMAKQ_pilih.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Rendang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rendang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kotakTumpul_kecil" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kotakTumpul_kecil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Metode_bayar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Metode_bayar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

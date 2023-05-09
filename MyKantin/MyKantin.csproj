@@ -340,5 +340,8 @@
   <ItemGroup>
     <None Include="Resources\kotakTumpul_kecil.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Metode_bayar.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

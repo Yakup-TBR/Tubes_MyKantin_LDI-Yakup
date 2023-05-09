@@ -433,6 +433,16 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Metode_bayar {
+            get {
+                object obj = ResourceManager.GetObject("Metode_bayar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Minum_makan {
             get {
                 object obj = ResourceManager.GetObject("Minum_makan", resourceCulture);
