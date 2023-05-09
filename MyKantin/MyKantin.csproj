@@ -108,6 +108,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Status_Bayar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Status_Bayar.Designer.cs">
+      <DependentUpon>Status_Bayar.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Detail_Makanan.resx">
       <DependentUpon>Detail_Makanan.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +151,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Status_Bayar.resx">
+      <DependentUpon>Status_Bayar.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -345,6 +354,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ikon_kamera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_bar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kotak_totalHarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bayar_sukses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail_bayar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
