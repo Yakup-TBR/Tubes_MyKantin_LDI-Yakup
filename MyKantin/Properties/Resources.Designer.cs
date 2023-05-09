@@ -273,6 +273,16 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ikon_kamera {
+            get {
+                object obj = ResourceManager.GetObject("ikon_kamera", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ikon_search {
             get {
                 object obj = ResourceManager.GetObject("ikon_search", resourceCulture);

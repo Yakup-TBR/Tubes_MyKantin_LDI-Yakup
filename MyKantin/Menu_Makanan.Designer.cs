@@ -59,7 +59,7 @@
             this.labelPilihPembayaran.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelPilihPembayaran.AutoSize = true;
             this.labelPilihPembayaran.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPilihPembayaran.Location = new System.Drawing.Point(115, 26);
+            this.labelPilihPembayaran.Location = new System.Drawing.Point(125, 26);
             this.labelPilihPembayaran.Name = "labelPilihPembayaran";
             this.labelPilihPembayaran.Size = new System.Drawing.Size(248, 25);
             this.labelPilihPembayaran.TabIndex = 11;
