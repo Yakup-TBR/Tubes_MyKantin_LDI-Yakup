@@ -256,5 +256,11 @@
   <ItemGroup>
     <None Include="Resources\Sate_ayam1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Makan_Minum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bakso.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
