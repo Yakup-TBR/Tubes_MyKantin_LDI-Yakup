@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{90D1D94C-8EC7-4D92-BCA5-1D6B0B77FB0C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyKantin</RootNamespace>
+    <AssemblyName>MyKantin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.4\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Favorit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Favorit.Designer.cs">
+      <DependentUpon>Favorit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Keranjang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Keranjang.designer.cs">
+      <DependentUpon>Keranjang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pembayaran.Designer.cs">
+      <DependentUpon>Pembayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pilihKantin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pilihKantin.designer.cs">
+      <DependentUpon>pilihKantin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Favorit.resx">
+      <DependentUpon>Favorit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Keranjang.resx">
+      <DependentUpon>Keranjang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pembayaran.resx">
+      <DependentUpon>Pembayaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pilihKantin.resx">
+      <DependentUpon>pilihKantin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include=".editorconfig" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-04-05 at 11.48.00.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-04-05 at 11.48.001.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasgor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\merchant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kedai ma ning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayam pukul pak jenggot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kedai yummy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DAPOER EMAKQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaim voucher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaim voucher1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geseputih.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kotakBesar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gopay 100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dana 100k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\promo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\total harga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bayarsekrh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ikon_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kedai ma ning_pilij.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kedai yummy_pilih.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kedai_pilih.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DAPOER EMAKQ_pilih.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\omJenggot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mbahJontor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garis_hitam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garis_abu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasgor_spesial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nasgor_spesial1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sate_ayam1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
