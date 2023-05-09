@@ -353,6 +353,16 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Kotak_kuantitas {
+            get {
+                object obj = ResourceManager.GetObject("Kotak_kuantitas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kotakBesar {
             get {
                 object obj = ResourceManager.GetObject("kotakBesar", resourceCulture);
@@ -436,6 +446,16 @@ namespace MyKantin.Properties {
         internal static System.Drawing.Bitmap nasgor {
             get {
                 object obj = ResourceManager.GetObject("nasgor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nasgor_besar {
+            get {
+                object obj = ResourceManager.GetObject("Nasgor_besar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

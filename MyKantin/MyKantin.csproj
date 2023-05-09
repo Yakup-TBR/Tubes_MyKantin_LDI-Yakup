@@ -328,5 +328,11 @@
   <ItemGroup>
     <None Include="Resources\Hati_hitam.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nasgor_besar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kotak_kuantitas.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
