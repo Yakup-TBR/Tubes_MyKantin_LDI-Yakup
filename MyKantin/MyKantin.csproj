@@ -262,5 +262,14 @@
   <ItemGroup>
     <None Include="Resources\Bakso.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nasi_Gor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rendang.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

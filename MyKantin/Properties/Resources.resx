@@ -136,9 +136,6 @@
   <data name="Sate_ayam1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sate_ayam1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="omJenggot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\omJenggot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="WhatsApp Image 2023-04-05 at 11.481" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2023-04-05 at 11.48.001.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -147,6 +144,9 @@
   </data>
   <data name="kotakBesar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kotakBesar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="merchant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\merchant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Kedai ma ning_pilij" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Kedai ma ning_pilij.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,9 +172,6 @@
   <data name="muka" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\muka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="total harga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\total harga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -193,8 +190,14 @@
   <data name="nasgor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nasgor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nasgor_spesial1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nasgor_spesial1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="klaim voucher1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\klaim voucher1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nasi_Gor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nasi_Gor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="qris" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\qris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,14 +217,20 @@
   <data name="nasgor_spesial" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nasgor_spesial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Gado2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gado2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="sate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nasgor_spesial1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nasgor_spesial1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DAPOER EMAKQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DAPOER EMAKQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Soto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Soto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,8 +238,11 @@
   <data name="garis_abu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\garis_abu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="merchant" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\merchant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bakso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bakso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="omJenggot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\omJenggot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,7 +250,10 @@
   <data name="DAPOER EMAKQ_pilih" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DAPOER EMAKQ_pilih.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bakso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bakso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rendang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rendang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siomay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siomay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
