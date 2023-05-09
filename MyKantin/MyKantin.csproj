@@ -82,6 +82,12 @@
     <Compile Include="Menu_Makanan.Designer.cs">
       <DependentUpon>Menu_Makanan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu_Minuman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Minuman.Designer.cs">
+      <DependentUpon>Menu_Minuman.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Makanan.resx">
       <DependentUpon>Menu_Makanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Minuman.resx">
+      <DependentUpon>Menu_Minuman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pembayaran.resx">
       <DependentUpon>Pembayaran.cs</DependentUpon>
@@ -270,6 +279,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Rendang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Siomay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Air_mineral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Es_teh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Esbuah_pelangi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EsCincau_milo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chco_milo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brown_sugar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minum_makan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minum_makan_saja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Putih_minum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Makanan_putih.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

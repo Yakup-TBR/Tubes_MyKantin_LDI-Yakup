@@ -10,23 +10,18 @@ using System.Windows.Forms;
 
 namespace MyKantin
 {
-    public partial class Menu_Makanan : Form
+    public partial class Menu_Minuman : Form
     {
-        public Menu_Makanan()
+        public Menu_Minuman()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             if (true)
             {
-                new Menu_Minuman().Show();
+                new Menu_Makanan().Show();
                 this.Hide();
 
             }

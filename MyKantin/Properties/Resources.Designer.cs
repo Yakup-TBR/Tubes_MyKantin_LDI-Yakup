@@ -83,6 +83,16 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Air_mineral {
+            get {
+                object obj = ResourceManager.GetObject("Air_mineral", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ayam_pukul_pak_jenggot {
             get {
                 object obj = ResourceManager.GetObject("ayam pukul pak jenggot", resourceCulture);
@@ -113,6 +123,26 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Brown_sugar {
+            get {
+                object obj = ResourceManager.GetObject("Brown_sugar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Chco_milo {
+            get {
+                object obj = ResourceManager.GetObject("Chco_milo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dana_100k {
             get {
                 object obj = ResourceManager.GetObject("dana 100k", resourceCulture);
@@ -136,6 +166,36 @@ namespace MyKantin.Properties {
         internal static System.Drawing.Bitmap DAPOER_EMAKQ_pilih {
             get {
                 object obj = ResourceManager.GetObject("DAPOER EMAKQ_pilih", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Es_teh {
+            get {
+                object obj = ResourceManager.GetObject("Es_teh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Esbuah_pelangi {
+            get {
+                object obj = ResourceManager.GetObject("Esbuah_pelangi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EsCincau_milo {
+            get {
+                object obj = ResourceManager.GetObject("EsCincau_milo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,6 +363,16 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Makanan_putih {
+            get {
+                object obj = ResourceManager.GetObject("Makanan_putih", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mbahJontor {
             get {
                 object obj = ResourceManager.GetObject("mbahJontor", resourceCulture);
@@ -316,6 +386,26 @@ namespace MyKantin.Properties {
         internal static System.Drawing.Bitmap merchant {
             get {
                 object obj = ResourceManager.GetObject("merchant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Minum_makan {
+            get {
+                object obj = ResourceManager.GetObject("Minum_makan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Minum_makan_saja {
+            get {
+                object obj = ResourceManager.GetObject("Minum_makan_saja", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -396,6 +486,16 @@ namespace MyKantin.Properties {
         internal static System.Drawing.Bitmap promo {
             get {
                 object obj = ResourceManager.GetObject("promo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Putih_minum {
+            get {
+                object obj = ResourceManager.GetObject("Putih_minum", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
