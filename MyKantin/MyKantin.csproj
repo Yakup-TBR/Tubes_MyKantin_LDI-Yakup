@@ -76,6 +76,12 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu_Makanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Makanan.Designer.cs">
+      <DependentUpon>Menu_Makanan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pembayaran.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Makanan.resx">
+      <DependentUpon>Menu_Makanan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pembayaran.resx">
       <DependentUpon>Pembayaran.cs</DependentUpon>
