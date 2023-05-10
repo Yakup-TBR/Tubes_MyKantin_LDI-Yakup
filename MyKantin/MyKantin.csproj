@@ -114,6 +114,12 @@
     <Compile Include="Status_Bayar.Designer.cs">
       <DependentUpon>Status_Bayar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Terakhir_Pesan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Terakhir_Pesan.Designer.cs">
+      <DependentUpon>Terakhir_Pesan.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Detail_Makanan.resx">
       <DependentUpon>Detail_Makanan.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +159,9 @@
     </Compile>
     <EmbeddedResource Include="Status_Bayar.resx">
       <DependentUpon>Status_Bayar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Terakhir_Pesan.resx">
+      <DependentUpon>Terakhir_Pesan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="packages.config" />

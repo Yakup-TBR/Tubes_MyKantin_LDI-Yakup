@@ -16,7 +16,7 @@ namespace MyKantin
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Home());
+            Application.Run(new Terakhir_Pesan());
         }
     }
 }

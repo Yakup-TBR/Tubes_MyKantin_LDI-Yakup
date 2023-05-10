@@ -62,7 +62,11 @@ namespace MyKantin
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-
+            if (true)
+            {
+                new Menu_Makanan().Show();
+                this.Hide();
+            }
         }
 
         private void label_dapatkandiskon_Click(object sender, EventArgs e)
@@ -112,7 +116,12 @@ namespace MyKantin
 
         private void label_all2_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                new Terakhir_Pesan().Show();
+                this.Hide();
 
+            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -148,6 +157,24 @@ namespace MyKantin
         private void pictureBox10_Click(object sender, EventArgs e)
         {
             if(true)
+            {
+                new Menu_Makanan().Show();
+                this.Hide();
+            }
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Menu_Makanan().Show();
+                this.Hide();
+            }
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            if (true)
             {
                 new Menu_Makanan().Show();
                 this.Hide();
