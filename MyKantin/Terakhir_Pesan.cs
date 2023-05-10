@@ -16,5 +16,15 @@ namespace MyKantin
         {
             InitializeComponent();
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Home().Show();
+                this.Hide();
+
+            }
+        }
     }
 }

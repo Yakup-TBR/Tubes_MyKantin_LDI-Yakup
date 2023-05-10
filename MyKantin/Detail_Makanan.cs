@@ -46,5 +46,25 @@ namespace MyKantin
         {
 
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Home().Show();
+                this.Hide();
+
+            }
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Keranjang().Show();
+                this.Hide();
+
+            }
+        }
     }
 }

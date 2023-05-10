@@ -21,7 +21,7 @@ namespace MyKantin
         {
             if(true)
             {
-                new Home().Show();
+                new Menu_Makanan().Show();
                 this.Hide();
 
             }
@@ -29,8 +29,13 @@ namespace MyKantin
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                new Menu_Makanan().Show();
+                this.Hide();
 
-            
+            }
+
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)

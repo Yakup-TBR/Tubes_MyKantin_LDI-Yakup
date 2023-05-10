@@ -44,7 +44,12 @@ namespace MyKantin
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                new Status_Bayar().Show();
+                this.Hide();
 
+            }
         }
     }
 }

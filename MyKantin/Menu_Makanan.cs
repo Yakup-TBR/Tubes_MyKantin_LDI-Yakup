@@ -19,7 +19,12 @@ namespace MyKantin
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                new pilihKantin().Show();
+                this.Hide();
 
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,6 +32,16 @@ namespace MyKantin
             if (true)
             {
                 new Menu_Minuman().Show();
+                this.Hide();
+
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Detail_Makanan().Show();
                 this.Hide();
 
             }
