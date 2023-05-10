@@ -44,10 +44,25 @@ namespace MyKantin
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                new Home().Show();
+                this.Hide();
 
+            }
         }
 
         private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Pembayaran().Show();
+                this.Hide();
+
+            }
+        }
+
+        private void label12_Click(object sender, EventArgs e)
         {
             if (true)
             {

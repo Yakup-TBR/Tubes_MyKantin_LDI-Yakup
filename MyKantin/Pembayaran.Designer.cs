@@ -56,12 +56,13 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::MyKantin.Properties.Resources.bayarsekrh;
-            this.pictureBox10.Location = new System.Drawing.Point(40, 584);
+            this.pictureBox10.Location = new System.Drawing.Point(45, 590);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(382, 70);
+            this.pictureBox10.Size = new System.Drawing.Size(397, 72);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 11;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // pictureBox9
             // 

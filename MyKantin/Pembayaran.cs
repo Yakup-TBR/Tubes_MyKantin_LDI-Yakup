@@ -41,5 +41,10 @@ namespace MyKantin
         {
 
         }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
