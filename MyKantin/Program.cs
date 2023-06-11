@@ -18,11 +18,15 @@ namespace MyKantin
             Application.SetCompatibleTextRenderingDefault(false);
 
 
+
             Application.Run(new Login());
 
             Application.Run(new pilihKantin());
 
             Application.Run(new pilihKantin());
+
+
+            Application.Run(new Login());
 
            
         }
