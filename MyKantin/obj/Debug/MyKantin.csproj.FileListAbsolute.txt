@@ -165,3 +165,4 @@ D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComp
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
 >>>>>>> b0bd028692affcf5409e4fbb42b9439d03158b03
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
