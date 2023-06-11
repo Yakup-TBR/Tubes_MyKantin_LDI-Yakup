@@ -139,3 +139,4 @@ D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComp
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
 >>>>>>> a1914b4a1607f563690506b3f56a1f3ac7c29cd6
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\NuGet.Frameworks.dll
