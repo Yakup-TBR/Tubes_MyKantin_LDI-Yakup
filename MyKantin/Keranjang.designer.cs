@@ -507,7 +507,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(331, 532);
+            this.label21.Location = new System.Drawing.Point(311, 532);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(13, 20);
             this.label21.TabIndex = 49;
@@ -526,9 +526,9 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(310, 574);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(34, 20);
+            this.label23.Size = new System.Drawing.Size(30, 20);
             this.label23.TabIndex = 51;
-            this.label23.Text = "Rp.";
+            this.label23.Text = "Rp";
             // 
             // Keranjang
             // 

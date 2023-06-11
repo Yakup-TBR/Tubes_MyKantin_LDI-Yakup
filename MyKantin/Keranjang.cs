@@ -105,7 +105,9 @@ namespace MyKantin
         }
 
         private int totalHarga = 0;
-        private void pictureBox17_Click(object sender, EventArgs e)
+       
+
+        private void label17_Click(object sender, EventArgs e)
         {
             string promoCode = textBox1.Text;
 
@@ -115,13 +117,13 @@ namespace MyKantin
                 int diskon = 0;
 
                 // Memeriksa apakah kode promo valid
-                if (promoCode == "DISCOUNT10")
+                if (promoCode == "DISCOUNT10%")
                 {
                     diskon = totalHarga * 10 / 100;
                 }
 
                 // Mengupdate label21 dengan hasil diskon
-                label21.Text = "Rp : -" + diskon.ToString("N0");
+                label21.Text = "Rp       -" + diskon.ToString("N0");
 
                 // Menghitung total harga setelah diskon
                 int totalHargaSetelahDiskon = totalHarga - diskon;
@@ -132,13 +134,13 @@ namespace MyKantin
                 // Mengupdate label21 dengan pesan kesalahan format angka
                 label21.Text = "Kesalahan format angka";
             }
+
         }
 
-        private void label17_Click(object sender, EventArgs e)
+        private void pictureBox17_Click(object sender, EventArgs e)
         {
             // Menghapus teks pada label21 saat label21 diklik
             label21.Text = "";
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -187,9 +189,15 @@ namespace MyKantin
         {
             if (true)
             {
-                new Pembayaran().Show();
-                this.Hide();
+                // Membuat objek Pembayaran
+                Pembayaran pembayaranForm = new Pembayaran();
 
+                // Mengirim nilai diskon dan total harga setelah diskon ke form Pembayaran
+                pembayaranForm.SetDiskon(label21.Text, label19.Text);
+
+                // Menampilkan form Pembayaran
+                pembayaranForm.Show();
+                this.Hide();
             }
         }
 

@@ -12,19 +12,12 @@ namespace MyKantin
 {
     public partial class Pembayaran : Form
     {
+        
+        private string diskon;
+        private string totalHargaSetelahDiskon;
         public Pembayaran()
         {
             InitializeComponent();
-        }
-
-        private void Pembayara_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelPilihPembayaran_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -36,6 +29,26 @@ namespace MyKantin
 
             }
         }
+
+        // Metode untuk mengatur nilai diskon dan total harga setelah diskon dari form keranjang
+        public void SetDiskon(string diskonValue, string totalHargaSetelahDiskonValue)
+        {
+            diskon = diskonValue;
+            totalHargaSetelahDiskon = totalHargaSetelahDiskonValue;
+
+            label4.Text = diskon;
+            label5.Text = totalHargaSetelahDiskon;
+        }
+
+
+
+
+        private void labelPilihPembayaran_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
@@ -53,6 +66,21 @@ namespace MyKantin
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

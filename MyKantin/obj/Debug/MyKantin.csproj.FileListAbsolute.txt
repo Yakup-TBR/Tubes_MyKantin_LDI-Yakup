@@ -288,3 +288,4 @@ D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
