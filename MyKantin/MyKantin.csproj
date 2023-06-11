@@ -111,7 +111,7 @@
     <Compile Include="pilihKantin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pilihKantin.designer.cs">
+    <Compile Include="pilihKantin.Designer.cs">
       <DependentUpon>pilihKantin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
