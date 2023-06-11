@@ -21,7 +21,7 @@ namespace MyKantin
         {
             if (true)
             {
-                new Home().Show();
+                new Profile().Show();
                 this.Hide();
 
             }

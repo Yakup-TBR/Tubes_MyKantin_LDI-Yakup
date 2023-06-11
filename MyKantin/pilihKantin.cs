@@ -18,8 +18,6 @@ namespace MyKantin
         public pilihKantin()
         {
             InitializeComponent();
-            String sql = "server=127.0.0.1; user=root; database= sample; kantin =";
-            MySqlConnection mySqlConnection = new MySqlConnection(sql);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -28,7 +26,7 @@ namespace MyKantin
             {
                 new Menu_Makanan().Show();
                 this.Hide();
-
+                
             }
         }
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -136,7 +134,7 @@ namespace MyKantin
                 {
                     connection.Open();
 
-                    string query = "SELECT * FROM kantin WHERE nama_kantin LIKE @keyword";
+                    string query = "SELECT * FROM kantin WHERE id_kantin LIKE @keyword";
                     MySqlCommand command = new MySqlCommand(query, connection);
                     command.Parameters.AddWithValue("@keyword", "%" + searchText + "%");
 
@@ -146,7 +144,7 @@ namespace MyKantin
 
                     while (reader.Read())
                     {
-                        string namaKantin = reader.GetString("nama_kantin");
+                        string namaKantin = reader.GetString("id_kantin");
 
                         if (namaKantin.Equals("maning", StringComparison.OrdinalIgnoreCase))
                         {
@@ -217,6 +215,11 @@ namespace MyKantin
                 new Home().Show();
                 this.Hide();
             }
+        }
+
+        private void flowLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

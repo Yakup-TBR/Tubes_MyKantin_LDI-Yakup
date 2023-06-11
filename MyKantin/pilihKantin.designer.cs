@@ -66,7 +66,7 @@
             // gambar_maning
             // 
             this.gambar_maning.Image = global::MyKantin.Properties.Resources.Kedai_ma_ning_pilij;
-            this.gambar_maning.Location = new System.Drawing.Point(213, 157);
+            this.gambar_maning.Location = new System.Drawing.Point(3, 311);
             this.gambar_maning.Name = "gambar_maning";
             this.gambar_maning.Size = new System.Drawing.Size(204, 148);
             this.gambar_maning.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -77,7 +77,7 @@
             // gambar_mbahnjontor
             // 
             this.gambar_mbahnjontor.Image = global::MyKantin.Properties.Resources.mbahJontor;
-            this.gambar_mbahnjontor.Location = new System.Drawing.Point(3, 3);
+            this.gambar_mbahnjontor.Location = new System.Drawing.Point(3, 157);
             this.gambar_mbahnjontor.Name = "gambar_mbahnjontor";
             this.gambar_mbahnjontor.Size = new System.Drawing.Size(204, 148);
             this.gambar_mbahnjontor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -88,7 +88,7 @@
             // gambar_omjenggot
             // 
             this.gambar_omjenggot.Image = global::MyKantin.Properties.Resources.omJenggot;
-            this.gambar_omjenggot.Location = new System.Drawing.Point(3, 157);
+            this.gambar_omjenggot.Location = new System.Drawing.Point(213, 311);
             this.gambar_omjenggot.Name = "gambar_omjenggot";
             this.gambar_omjenggot.Size = new System.Drawing.Size(204, 148);
             this.gambar_omjenggot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -99,7 +99,7 @@
             // gambar_jepang
             // 
             this.gambar_jepang.Image = global::MyKantin.Properties.Resources.kedai_pilih;
-            this.gambar_jepang.Location = new System.Drawing.Point(3, 311);
+            this.gambar_jepang.Location = new System.Drawing.Point(213, 157);
             this.gambar_jepang.Name = "gambar_jepang";
             this.gambar_jepang.Size = new System.Drawing.Size(204, 144);
             this.gambar_jepang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -110,7 +110,7 @@
             // gambar_emak
             // 
             this.gambar_emak.Image = global::MyKantin.Properties.Resources.DAPOER_EMAKQ_pilih;
-            this.gambar_emak.Location = new System.Drawing.Point(213, 311);
+            this.gambar_emak.Location = new System.Drawing.Point(3, 3);
             this.gambar_emak.Name = "gambar_emak";
             this.gambar_emak.Size = new System.Drawing.Size(204, 144);
             this.gambar_emak.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -132,16 +132,17 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.Controls.Add(this.gambar_mbahnjontor);
-            this.flowLayoutPanel1.Controls.Add(this.gambar_yummy);
-            this.flowLayoutPanel1.Controls.Add(this.gambar_omjenggot);
-            this.flowLayoutPanel1.Controls.Add(this.gambar_maning);
-            this.flowLayoutPanel1.Controls.Add(this.gambar_jepang);
             this.flowLayoutPanel1.Controls.Add(this.gambar_emak);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(23, 142);
+            this.flowLayoutPanel1.Controls.Add(this.gambar_yummy);
+            this.flowLayoutPanel1.Controls.Add(this.gambar_mbahnjontor);
+            this.flowLayoutPanel1.Controls.Add(this.gambar_jepang);
+            this.flowLayoutPanel1.Controls.Add(this.gambar_maning);
+            this.flowLayoutPanel1.Controls.Add(this.gambar_omjenggot);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(36, 142);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(447, 531);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(434, 531);
             this.flowLayoutPanel1.TabIndex = 14;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint_1);
             // 
             // textBox1
             // 
