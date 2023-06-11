@@ -21,7 +21,7 @@ namespace MyKantin
         private String coba2 = "hapid";
         private String coba3 = "hapid1";
         private String coba4 = "hapid2";
-        private String coba5 = "hapid si memek lebar";
+        private String coba5 = "hapid ganteng tapi boong    ";
 
 
         private void Form1_Load(object sender, EventArgs e) 
