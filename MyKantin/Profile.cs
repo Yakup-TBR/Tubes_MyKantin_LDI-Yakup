@@ -84,5 +84,14 @@ namespace MyKantin
                 this.Hide();
             }
         }
+
+        private void guna2PictureBox6_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Login().Show();
+                this.Hide();
+            }
+        }
     }
 }
