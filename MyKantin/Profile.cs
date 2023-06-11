@@ -21,5 +21,41 @@ namespace MyKantin
         {
 
         }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Favorit().Show();
+                this.Hide();
+            }
+        }
+
+        private void guna2PictureBox4_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Favorit().Show();
+                this.Hide();
+            }
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Terakhir_Pesan().Show();
+                this.Hide();
+            }
+        }
+
+        private void guna2PictureBox5_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Terakhir_Pesan().Show();
+                this.Hide();
+            }
+        }
     }
 }

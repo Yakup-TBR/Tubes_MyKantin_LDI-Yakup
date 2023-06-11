@@ -156,7 +156,11 @@ namespace MyKantin
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-
+            if (true)
+            {
+                new Profile().Show();
+                this.Hide();
+            }
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
