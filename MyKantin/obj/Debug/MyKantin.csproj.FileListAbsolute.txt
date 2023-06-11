@@ -90,7 +90,6 @@ C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes Hasil G
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes Hasil Gabung\Tubes_MyKantin_LDI-Ripo\Tubes_MyKantin_LDI-Yakup\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes Hasil Gabung\Tubes_MyKantin_LDI-Ripo\Tubes_MyKantin_LDI-Yakup\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Guna.UI2.dll
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes Hasil Gabung\Tubes_MyKantin_LDI-Ripo\Tubes_MyKantin_LDI-Yakup\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
-<<<<<<< HEAD
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe.config
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
@@ -140,7 +139,6 @@ C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tube
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
-=======
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe.config
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
@@ -164,5 +162,57 @@ D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CoreComp
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
->>>>>>> b0bd028692affcf5409e4fbb42b9439d03158b03
+
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe.config
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\BouncyCastle.Crypto.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Google.Protobuf.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Guna.UI2.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Hash.xxHash.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MySql.Data.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\NuGet.Frameworks.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Buffers.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.IO.Pipelines.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Memory.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Numerics.Vectors.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\BouncyCastle.Crypto.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Google.Protobuf.pdb
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Google.Protobuf.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Hash.xxHash.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MySql.Data.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Buffers.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.IO.Pipelines.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Memory.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Numerics.Vectors.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.AssemblyReference.cache
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.SuggestedBindingRedirects.cache
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Detail_Makanan.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Home.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Keranjang.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Login.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Menu_Makanan.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Menu_Minuman.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Pembayaran.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pilihKantin.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Properties.Resources.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Status_Bayar.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Terakhir_Pesan.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.GenerateResource.cache
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CoreCompileInputs.cache
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
+
+
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
+
