@@ -8,6 +8,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 
 namespace MyKantin
@@ -17,6 +18,8 @@ namespace MyKantin
         public pilihKantin()
         {
             InitializeComponent();
+            String sql = "server=127.0.0.1; user=root; database= sample; kantin =";
+            MySqlConnection mySqlConnection = new MySqlConnection(sql);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -113,25 +116,9 @@ namespace MyKantin
 
         }
 
-
-
-        private enum State
-        {
-            Initial,
-            Maning,
-            Yummy,
-            Mbahnjontor,
-            Jepang,
-            Jenggot,
-            Emak
-        }
-
-
-        private State currentState;
-
         private void guna2ImageButton1_Click(object sender, EventArgs e)
         {
-            string searchText = textBox1.Text.ToLower(); // Mengambil teks dari TextBox dan mengubahnya menjadi huruf kecil
+            string searchText = textBox1.Text.ToLower();
 
             gambar_maning.Visible = false;
             gambar_yummy.Visible = false;
@@ -142,151 +129,75 @@ namespace MyKantin
 
             if (!string.IsNullOrWhiteSpace(searchText))
             {
-                currentState = State.Initial;
+                string connectionString = "Server=127.0.0.1;Database=pilihkantin;Uid=root";
+                MySqlConnection connection = new MySqlConnection(connectionString);
 
-                foreach (char c in searchText)
+                try
                 {
-                    switch (currentState)
+                    connection.Open();
+
+                    string query = "SELECT * FROM kantin WHERE nama_kantin LIKE @keyword";
+                    MySqlCommand command = new MySqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@keyword", "%" + searchText + "%");
+
+                    MySqlDataReader reader = command.ExecuteReader();
+
+                    bool kantinDitemukan = false; // Menandakan apakah kantin ditemukan atau tidak
+
+                    while (reader.Read())
                     {
-                        case State.Initial:
-                            if (c == 'm')
-                                currentState = State.Maning;
-                            else if (c == 'y')
-                                currentState = State.Yummy;
-                            else if (c == 'b')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'j')
-                                currentState = State.Jepang;
-                            else if (c == 'e')
-                                currentState = State.Emak;
-                            else
-                                currentState = State.Initial;
-                            break;
-                        case State.Maning:
-                            if (c == 'a')
-                                currentState = State.Maning;
-                            else if (c == 'n')
-                                currentState = State.Maning;
-                            else if (c == 'i')
-                                currentState = State.Maning;
-                            else if (c == 'g')
-                                currentState = State.Maning;
-                            else
-                                currentState = State.Initial;
-                            break;
-                        case State.Yummy:
-                            if (c == 'u')
-                                currentState = State.Yummy;
-                            else if (c == 'm')
-                                currentState = State.Yummy;
-                            else if (c == 'm')
-                                currentState = State.Yummy;
-                            else if (c == 'y')
-                                currentState = State.Yummy;
-                            else
-                                currentState = State.Initial;
-                            break;
-                        case State.Mbahnjontor:
-                            if (c == 'm')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'b')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'a')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'h')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'n')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'j')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'o')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'n')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 't')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'o')
-                                currentState = State.Mbahnjontor;
-                            else if (c == 'r')
-                                currentState = State.Mbahnjontor;
-                            else
-                                currentState = State.Initial;
-                            break;
-                        case State.Jepang:
-                            if (c == 'e')
-                                currentState = State.Jepang;
-                            else if (c == 'p')
-                                currentState = State.Jepang;
-                            else if (c == 'a')
-                                currentState = State.Jepang;
-                            else if (c == 'n')
-                                currentState = State.Jepang;
-                            else if (c == 'g')
-                                currentState = State.Jepang;
-                            else
-                                currentState = State.Initial;
-                            break;
-                        case State.Jenggot:
-                            if (c == 'j')
-                                currentState = State.Jenggot;
-                            else if (c == 'e')
-                                currentState = State.Jenggot;
-                            else if (c == 'n')
-                                currentState = State.Jenggot;
-                            else if (c == 'g')
-                                currentState = State.Jenggot;
-                            else if (c == 'g')
-                                currentState = State.Jenggot;
-                            else if (c == 'o')
-                                currentState = State.Jenggot;
-                            else if (c == 't')
-                                currentState = State.Jenggot;
-                            else
-                                currentState = State.Initial;
-                            break;
-                        case State.Emak:
-                            if (c == 'e')
-                                currentState = State.Emak;
-                            else if (c == 'm')
-                                currentState = State.Emak;
-                            else if (c == 'a')
-                                currentState = State.Emak;
-                            else if (c == 'k')
-                                currentState = State.Emak;
-                            else
-                                currentState = State.Initial;
-                            break;
-                    }
-                }
+                        string namaKantin = reader.GetString("nama_kantin");
 
-                switch (currentState)
+                        if (namaKantin.Equals("maning", StringComparison.OrdinalIgnoreCase))
+                        {
+                            gambar_maning.Visible = true;
+                            kantinDitemukan = true;
+                        }
+                        else if (namaKantin.Equals("yummy", StringComparison.OrdinalIgnoreCase))
+                        {
+                            gambar_yummy.Visible = true;
+                            kantinDitemukan = true;
+                        }
+                        else if (namaKantin.Equals("mbahnjontor", StringComparison.OrdinalIgnoreCase))
+                        {
+                            gambar_mbahnjontor.Visible = true;
+                            kantinDitemukan = true;
+                        }
+                        else if (namaKantin.Equals("jepang", StringComparison.OrdinalIgnoreCase))
+                        {
+                            gambar_jepang.Visible = true;
+                            kantinDitemukan = true;
+                        }
+                        else if (namaKantin.Equals("omjenggot", StringComparison.OrdinalIgnoreCase))
+                        {
+                            gambar_omjenggot.Visible = true;
+                            kantinDitemukan = true;
+                        }
+                        else if (namaKantin.Equals("emak", StringComparison.OrdinalIgnoreCase))
+                        {
+                            gambar_emak.Visible = true;
+                            kantinDitemukan = true;
+                        }
+                    }
+
+                    if (!kantinDitemukan)
+                    {
+                        MessageBox.Show("Kantin tidak ditemukan.");
+                    }
+
+                    reader.Close();
+                }
+                catch (Exception ex)
                 {
-                    case State.Maning:
-                        gambar_maning.Visible = true;
-                        break;
-                    case State.Yummy:
-                        gambar_yummy.Visible = true;
-                        break;
-                    case State.Mbahnjontor:
-                        gambar_mbahnjontor.Visible = true;
-                        break;
-                    case State.Jepang:
-                        gambar_jepang.Visible = true;
-                        break;
-                    case State.Jenggot:
-                        gambar_omjenggot.Visible = true;
-                        break;
-                    case State.Emak:
-                        gambar_emak.Visible = true;
-                        break;
-                    default:
-                        // Teks tidak cocok dengan keadaan yang didefinisikan
-                        break;
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+                finally
+                {
+                    connection.Close();
                 }
             }
             else
             {
-                // Teks kosong, menampilkan semua gambar
                 gambar_maning.Visible = true;
                 gambar_yummy.Visible = true;
                 gambar_mbahnjontor.Visible = true;
@@ -295,6 +206,9 @@ namespace MyKantin
                 gambar_emak.Visible = true;
             }
         }
+
+
+
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {

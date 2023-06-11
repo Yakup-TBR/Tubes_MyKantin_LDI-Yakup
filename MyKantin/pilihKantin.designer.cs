@@ -77,7 +77,7 @@
             // gambar_mbahnjontor
             // 
             this.gambar_mbahnjontor.Image = global::MyKantin.Properties.Resources.mbahJontor;
-            this.gambar_mbahnjontor.Location = new System.Drawing.Point(213, 3);
+            this.gambar_mbahnjontor.Location = new System.Drawing.Point(3, 3);
             this.gambar_mbahnjontor.Name = "gambar_mbahnjontor";
             this.gambar_mbahnjontor.Size = new System.Drawing.Size(204, 148);
             this.gambar_mbahnjontor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -121,7 +121,7 @@
             // gambar_yummy
             // 
             this.gambar_yummy.Image = global::MyKantin.Properties.Resources.Kedai_yummy_pilih;
-            this.gambar_yummy.Location = new System.Drawing.Point(3, 3);
+            this.gambar_yummy.Location = new System.Drawing.Point(213, 3);
             this.gambar_yummy.Name = "gambar_yummy";
             this.gambar_yummy.Size = new System.Drawing.Size(204, 148);
             this.gambar_yummy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -132,8 +132,8 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.Controls.Add(this.gambar_yummy);
             this.flowLayoutPanel1.Controls.Add(this.gambar_mbahnjontor);
+            this.flowLayoutPanel1.Controls.Add(this.gambar_yummy);
             this.flowLayoutPanel1.Controls.Add(this.gambar_omjenggot);
             this.flowLayoutPanel1.Controls.Add(this.gambar_maning);
             this.flowLayoutPanel1.Controls.Add(this.gambar_jepang);
