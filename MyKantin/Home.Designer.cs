@@ -39,7 +39,6 @@
             this.label_merchantMakanan = new System.Windows.Forms.Label();
             this.labeldapatdiskon = new System.Windows.Forms.Label();
             this.labelDiskon = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
@@ -52,7 +51,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -175,18 +173,6 @@
             this.labelDiskon.TabIndex = 22;
             this.labelDiskon.Text = "Up to 50%";
             this.labelDiskon.Click += new System.EventHandler(this.labelDiskon_Click);
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox12.Image = global::MyKantin.Properties.Resources.klaim_voucher1;
-            this.pictureBox12.Location = new System.Drawing.Point(46, 200);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(114, 29);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 20;
-            this.pictureBox12.TabStop = false;
             // 
             // pictureBox11
             // 
@@ -317,7 +303,6 @@
             this.ClientSize = new System.Drawing.Size(482, 713);
             this.Controls.Add(this.labelDiskon);
             this.Controls.Add(this.labeldapatdiskon);
-            this.Controls.Add(this.pictureBox12);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
@@ -339,7 +324,6 @@
             this.Load += new System.EventHandler(this.Home_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -376,7 +360,6 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Label labeldapatdiskon;
         private System.Windows.Forms.Label labelDiskon;
         public System.Windows.Forms.Label label_merchantMakanan;

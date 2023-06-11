@@ -143,6 +143,16 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bgProfile {
+            get {
+                object obj = ResourceManager.GetObject("bgProfile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Brown_sugar {
             get {
                 object obj = ResourceManager.GetObject("Brown_sugar", resourceCulture);
@@ -236,6 +246,16 @@ namespace MyKantin.Properties {
         internal static System.Drawing.Bitmap EsCincau_milo {
             get {
                 object obj = ResourceManager.GetObject("EsCincau_milo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap favoritProfile {
+            get {
+                object obj = ResourceManager.GetObject("favoritProfile", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,6 +493,16 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logOut {
+            get {
+                object obj = ResourceManager.GetObject("logOut", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap love_merah1_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("love_merah1-removebg-preview", resourceCulture);
@@ -556,6 +586,16 @@ namespace MyKantin.Properties {
         internal static System.Drawing.Bitmap muka {
             get {
                 object obj = ResourceManager.GetObject("muka", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mukaBulat {
+            get {
+                object obj = ResourceManager.GetObject("mukaBulat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -663,6 +703,16 @@ namespace MyKantin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap panahProfile {
+            get {
+                object obj = ResourceManager.GetObject("panahProfile", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap promo {
             get {
                 object obj = ResourceManager.GetObject("promo", resourceCulture);
@@ -706,6 +756,16 @@ namespace MyKantin.Properties {
         internal static System.Drawing.Bitmap Rendang {
             get {
                 object obj = ResourceManager.GetObject("Rendang", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap riwayatProfie {
+            get {
+                object obj = ResourceManager.GetObject("riwayatProfie", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

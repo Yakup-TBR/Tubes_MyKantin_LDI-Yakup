@@ -19,12 +19,6 @@ namespace MyKantin
             InitializeComponent();
         }
 
-        private String coba = "ripo1";
-        private String coba2 = "hapid";
-        private String coba3 = "hapid1";
-        private String coba4 = "hapid2";
-
-
         private void Form1_Load(object sender, EventArgs e) 
         {
 
