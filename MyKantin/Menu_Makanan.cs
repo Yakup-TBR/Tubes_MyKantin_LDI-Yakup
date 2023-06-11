@@ -46,10 +46,5 @@ namespace MyKantin
 
             }
         }
-
-        private void Menu_Makanan_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -90,6 +90,7 @@ C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes Hasil G
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes Hasil Gabung\Tubes_MyKantin_LDI-Ripo\Tubes_MyKantin_LDI-Yakup\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes Hasil Gabung\Tubes_MyKantin_LDI-Ripo\Tubes_MyKantin_LDI-Yakup\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Guna.UI2.dll
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes Hasil Gabung\Tubes_MyKantin_LDI-Ripo\Tubes_MyKantin_LDI-Yakup\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe.config
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
@@ -139,29 +140,7 @@ C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tube
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe.config
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Guna.UI2.dll
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.AssemblyReference.cache
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.SuggestedBindingRedirects.cache
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Detail_Makanan.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Home.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Keranjang.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Login.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Menu_Makanan.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Menu_Minuman.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Pembayaran.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pilihKantin.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Properties.Resources.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Status_Bayar.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Terakhir_Pesan.resources
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.GenerateResource.cache
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CoreCompileInputs.cache
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
-D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
+=======
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe.config
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
@@ -185,4 +164,4 @@ D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CoreComp
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
-
+>>>>>>> b0bd028692affcf5409e4fbb42b9439d03158b03
