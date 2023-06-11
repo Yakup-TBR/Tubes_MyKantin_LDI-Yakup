@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
@@ -9,6 +10,7 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace MyKantin
 {
@@ -135,7 +137,7 @@ namespace MyKantin
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            if (true)
+            if(true)
             {
                 new Pembayaran().Show();
                 this.Hide();
