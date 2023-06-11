@@ -17,7 +17,8 @@ namespace MyKantin
             InitializeComponent();
         }
 
-        
+        private String coba = "ripo1";
+        private String coba2 = "hapid";
 
         private void Form1_Load(object sender, EventArgs e) 
         {

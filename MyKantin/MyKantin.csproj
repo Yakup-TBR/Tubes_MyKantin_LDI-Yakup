@@ -388,5 +388,23 @@
   <ItemGroup>
     <None Include="Resources\sate_Ayam_lengkap.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectengel 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keranjang belanja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love_merah1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

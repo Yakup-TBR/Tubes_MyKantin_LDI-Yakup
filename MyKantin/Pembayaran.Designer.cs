@@ -183,6 +183,7 @@
             this.radioButton4.TabIndex = 15;
             this.radioButton4.TabStop = true;
             this.radioButton4.UseVisualStyleBackColor = false;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton5
             // 
