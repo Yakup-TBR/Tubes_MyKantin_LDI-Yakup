@@ -59,9 +59,9 @@
             this.labelPilihPembayaran.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelPilihPembayaran.AutoSize = true;
             this.labelPilihPembayaran.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPilihPembayaran.Location = new System.Drawing.Point(125, 26);
+            this.labelPilihPembayaran.Location = new System.Drawing.Point(141, 32);
             this.labelPilihPembayaran.Name = "labelPilihPembayaran";
-            this.labelPilihPembayaran.Size = new System.Drawing.Size(248, 25);
+            this.labelPilihPembayaran.Size = new System.Drawing.Size(305, 30);
             this.labelPilihPembayaran.TabIndex = 11;
             this.labelPilihPembayaran.Text = "Menu Kantin Kedai Yummy";
             // 
@@ -69,17 +69,19 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(36, 90);
+            this.textBox1.Location = new System.Drawing.Point(40, 112);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(360, 20);
+            this.textBox1.Size = new System.Drawing.Size(405, 24);
             this.textBox1.TabIndex = 13;
             // 
             // pictureBox10
             // 
             this.pictureBox10.Image = global::MyKantin.Properties.Resources.Siomay;
-            this.pictureBox10.Location = new System.Drawing.Point(247, 533);
+            this.pictureBox10.Location = new System.Drawing.Point(278, 666);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(210, 159);
+            this.pictureBox10.Size = new System.Drawing.Size(236, 199);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 21;
             this.pictureBox10.TabStop = false;
@@ -87,9 +89,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::MyKantin.Properties.Resources.Rendang;
-            this.pictureBox5.Location = new System.Drawing.Point(247, 368);
+            this.pictureBox5.Location = new System.Drawing.Point(278, 460);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(210, 159);
+            this.pictureBox5.Size = new System.Drawing.Size(236, 199);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 20;
             this.pictureBox5.TabStop = false;
@@ -97,9 +100,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::MyKantin.Properties.Resources.Gado2;
-            this.pictureBox4.Location = new System.Drawing.Point(24, 533);
+            this.pictureBox4.Location = new System.Drawing.Point(27, 666);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(210, 159);
+            this.pictureBox4.Size = new System.Drawing.Size(236, 199);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 19;
             this.pictureBox4.TabStop = false;
@@ -107,9 +111,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::MyKantin.Properties.Resources.Soto;
-            this.pictureBox3.Location = new System.Drawing.Point(24, 368);
+            this.pictureBox3.Location = new System.Drawing.Point(27, 460);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(210, 159);
+            this.pictureBox3.Size = new System.Drawing.Size(236, 199);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 18;
             this.pictureBox3.TabStop = false;
@@ -117,9 +122,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::MyKantin.Properties.Resources.Nasi_Gor;
-            this.pictureBox2.Location = new System.Drawing.Point(247, 203);
+            this.pictureBox2.Location = new System.Drawing.Point(278, 254);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(210, 159);
+            this.pictureBox2.Size = new System.Drawing.Size(236, 199);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
@@ -128,9 +134,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MyKantin.Properties.Resources.Bakso;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 203);
+            this.pictureBox1.Location = new System.Drawing.Point(27, 254);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(210, 159);
+            this.pictureBox1.Size = new System.Drawing.Size(236, 199);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
@@ -138,9 +145,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::MyKantin.Properties.Resources.Makanan_putih;
-            this.pictureBox6.Location = new System.Drawing.Point(130, 139);
+            this.pictureBox6.Location = new System.Drawing.Point(146, 174);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(216, 49);
+            this.pictureBox6.Size = new System.Drawing.Size(243, 61);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 15;
             this.pictureBox6.TabStop = false;
@@ -148,9 +156,10 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::MyKantin.Properties.Resources.ikon_search;
-            this.pictureBox9.Location = new System.Drawing.Point(416, 88);
+            this.pictureBox9.Location = new System.Drawing.Point(468, 110);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(28, 27);
+            this.pictureBox9.Size = new System.Drawing.Size(32, 34);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 14;
             this.pictureBox9.TabStop = false;
@@ -158,9 +167,10 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::MyKantin.Properties.Resources.search_bar;
-            this.pictureBox8.Location = new System.Drawing.Point(24, 81);
+            this.pictureBox8.Location = new System.Drawing.Point(27, 101);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(429, 42);
+            this.pictureBox8.Size = new System.Drawing.Size(483, 52);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 12;
             this.pictureBox8.TabStop = false;
@@ -168,9 +178,10 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(36, 24);
+            this.pictureBox7.Location = new System.Drawing.Point(40, 30);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(34, 27);
+            this.pictureBox7.Size = new System.Drawing.Size(38, 34);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 9;
             this.pictureBox7.TabStop = false;
@@ -180,19 +191,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(253, 154);
+            this.label1.Location = new System.Drawing.Point(285, 192);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 19);
+            this.label1.Size = new System.Drawing.Size(85, 23);
             this.label1.TabIndex = 36;
             this.label1.Text = "Minuman";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Menu_Makanan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(482, 713);
+            this.ClientSize = new System.Drawing.Size(542, 891);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox5);
@@ -207,9 +218,11 @@
             this.Controls.Add(this.labelPilihPembayaran);
             this.Controls.Add(this.pictureBox7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Menu_Makanan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu_Makanan";
+            this.Load += new System.EventHandler(this.Menu_Makanan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
