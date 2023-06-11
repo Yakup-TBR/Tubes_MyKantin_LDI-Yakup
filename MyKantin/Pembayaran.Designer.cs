@@ -59,7 +59,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::MyKantin.Properties.Resources.bayarsekrh;
-            this.pictureBox10.Location = new System.Drawing.Point(55, 657);
+            this.pictureBox10.Location = new System.Drawing.Point(55, 647);
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(447, 90);
