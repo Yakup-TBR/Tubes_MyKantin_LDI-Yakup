@@ -63,8 +63,6 @@ namespace MyKantin
 
         }
 
-       
-
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -72,6 +70,8 @@ namespace MyKantin
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
+
+        }
            
         private void label5_Click(object sender, EventArgs e)
         {
