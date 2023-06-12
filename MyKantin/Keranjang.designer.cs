@@ -195,7 +195,7 @@
             this.labelPilihPembayaran.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelPilihPembayaran.AutoSize = true;
             this.labelPilihPembayaran.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPilihPembayaran.Location = new System.Drawing.Point(224, -39);
+            this.labelPilihPembayaran.Location = new System.Drawing.Point(224, 12);
             this.labelPilihPembayaran.Name = "labelPilihPembayaran";
             this.labelPilihPembayaran.Size = new System.Drawing.Size(120, 30);
             this.labelPilihPembayaran.TabIndex = 32;
@@ -342,7 +342,7 @@
             this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(90, 36);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 10;
             this.pictureBox10.TabStop = false;
             // 
@@ -353,7 +353,7 @@
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(90, 36);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 9;
             this.pictureBox9.TabStop = false;
             // 
@@ -364,7 +364,7 @@
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(90, 36);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 8;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
@@ -507,7 +507,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(331, 532);
+            this.label21.Location = new System.Drawing.Point(311, 532);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(13, 20);
             this.label21.TabIndex = 49;
@@ -526,16 +526,16 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(310, 574);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(34, 20);
+            this.label23.Size = new System.Drawing.Size(30, 20);
             this.label23.TabIndex = 51;
-            this.label23.Text = "Rp.";
+            this.label23.Text = "Rp";
             // 
             // Keranjang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(542, 748);
+            this.ClientSize = new System.Drawing.Size(543, 850);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);

@@ -105,7 +105,8 @@ namespace MyKantin
         }
 
         private int totalHarga = 0;
-        private void pictureBox17_Click(object sender, EventArgs e)
+
+        private void label17_Click(object sender, EventArgs e)
         {
             string promoCode = textBox1.Text;
 
@@ -115,30 +116,37 @@ namespace MyKantin
                 int diskon = 0;
 
                 // Memeriksa apakah kode promo valid
-                if (promoCode == "DISCOUNT10")
+                if (promoCode == "DISCOUNT10%")
                 {
                     diskon = totalHarga * 10 / 100;
                 }
+                else
+                {
+                    throw new Exception("Kode promo salah");
+                }
 
                 // Mengupdate label21 dengan hasil diskon
-                label21.Text = "Rp : -" + diskon.ToString("N0");
+                label21.Text = "Rp       -" + diskon.ToString("N0");
+                label21.ForeColor = Color.Black; // Mengubah warna teks menjadi hitam
 
                 // Menghitung total harga setelah diskon
                 int totalHargaSetelahDiskon = totalHarga - diskon;
                 label19.Text = totalHargaSetelahDiskon.ToString("N0");
             }
-            catch (FormatException)
+            catch (Exception ex)
             {
-                // Mengupdate label21 dengan pesan kesalahan format angka
-                label21.Text = "Kesalahan format angka";
+                // Mengupdate label21 dengan pesan kesalahan kode promo
+                label21.Text = ex.Message;
+                label21.ForeColor = Color.Red; // Mengubah warna teks menjadi merah
             }
         }
 
-        private void label17_Click(object sender, EventArgs e)
+
+
+        private void pictureBox17_Click(object sender, EventArgs e)
         {
             // Menghapus teks pada label21 saat label21 diklik
             label21.Text = "";
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -187,9 +195,15 @@ namespace MyKantin
         {
             if (true)
             {
-                new Pembayaran().Show();
-                this.Hide();
+                // Membuat objek Pembayaran
+                Pembayaran pembayaranForm = new Pembayaran();
 
+                // Mengirim nilai diskon dan total harga setelah diskon ke form Pembayaran
+                pembayaranForm.SetDiskon(label21.Text, label19.Text);
+
+                // Menampilkan form Pembayaran
+                pembayaranForm.Show();
+                this.Hide();
             }
         }
 

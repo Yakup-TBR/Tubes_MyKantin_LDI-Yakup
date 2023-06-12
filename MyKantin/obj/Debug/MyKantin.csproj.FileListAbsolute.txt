@@ -211,6 +211,32 @@ D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CoreComp
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\BouncyCastle.Crypto.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Google.Protobuf.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Hash.xxHash.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MySql.Data.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\NuGet.Frameworks.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Buffers.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.IO.Pipelines.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Memory.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Numerics.Vectors.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\BouncyCastle.Crypto.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Google.Protobuf.pdb
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Google.Protobuf.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Hash.xxHash.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MySql.Data.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Buffers.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.IO.Pipelines.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Memory.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Numerics.Vectors.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe.config
 D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe
 D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
@@ -262,3 +288,55 @@ D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\MyKantin\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
+D:\tubeskpl\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
+D:\TUBES KPL NEW FINAL\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe.config
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.exe
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MyKantin.pdb
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Google.Protobuf.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Guna.UI2.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MySql.Data.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\NuGet.Frameworks.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Buffers.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Memory.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Google.Protobuf.pdb
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\Google.Protobuf.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\MySql.Data.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Buffers.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Memory.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.AssemblyReference.cache
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Detail_Makanan.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Home.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Keranjang.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Login.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Menu_Makanan.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Menu_Minuman.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Pembayaran.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pilihKantin.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Properties.Resources.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Status_Bayar.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Terakhir_Pesan.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.GenerateResource.cache
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CoreCompileInputs.cache
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
