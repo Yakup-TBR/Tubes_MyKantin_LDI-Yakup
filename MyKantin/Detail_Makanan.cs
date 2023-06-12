@@ -19,6 +19,8 @@ namespace MyKantin
     public partial class Detail_Makanan : Form
     {
         private int idProduk;
+        //private decimal totalHarga;
+        private decimal hargaMakanan = 10;
 
         public int IdProduk
         {
@@ -49,14 +51,15 @@ namespace MyKantin
                 MySqlDataReader reader = cmd.ExecuteReader();
 
                 if (reader.Read())
-                {
+                {   
                     string namaProduk = reader.GetString("nama_produk");
-                    decimal harga = reader.GetDecimal("harga_produk");
+                    decimal hargaMakananDB = reader.GetDecimal("harga_produk");
                     byte[] gambarBytes = (byte[])reader["gambar_produk"];
                     string deskripsi = reader.GetString("deskripsi_produk");
 
-                    label1.Text = harga.ToString("C");
-                    label4.Text = harga.ToString("C");
+                    hargaMakanan = hargaMakananDB;
+                    label1.Text = hargaMakanan.ToString("C");
+                    label4.Text = hargaMakanan.ToString("C");
                     label2.Text = "About " + namaProduk;
                     pictureBox1.Image = ByteArrayToImage(gambarBytes);
                     label3.Text = deskripsi;
@@ -75,6 +78,38 @@ namespace MyKantin
             {
                 return Image.FromStream(stream);
             }
+        }
+
+        int jumlah = 1;
+        //int hargaMakanan = 10;
+        private void label6_Click(object sender, EventArgs e)
+        {
+            jumlah++;
+            UpdateTotalHarga();
+            label5.Text = jumlah.ToString();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            if (jumlah > 1)
+            {
+            jumlah--;
+            UpdateTotalHarga();
+            label5.Text = jumlah.ToString();
+            }
+        }
+
+        private decimal HitungTotalHarga(int jumlah, decimal hargaMakanan)
+        {
+            return jumlah * hargaMakanan;
+        }
+
+        private void UpdateTotalHarga()
+        {
+            decimal totalHarga = HitungTotalHarga(jumlah, hargaMakanan);
+            String hargaMakananFormatted = "Rp. " + totalHarga.ToString();
+            label4.Text = hargaMakananFormatted;
+            label4.Text = totalHarga.ToString("C");
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -119,38 +154,6 @@ namespace MyKantin
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        int jumlah = 1;
-        int hargaMakanan = 10;
-        private void label6_Click(object sender, EventArgs e)
-        {
-            jumlah++;
-            UpdateTotalHarga();
-            label5.Text = jumlah.ToString();
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-            if (jumlah > 1) 
-            {
-                jumlah--;
-                UpdateTotalHarga();
-                label5.Text = jumlah.ToString(); 
-            }
-        }
-
-        private int HitungTotalHarga(int jumlah, int harga)
-        {
-            return jumlah * harga;
-        }
-
-        private void UpdateTotalHarga()
-        {
-            int totalHarga = HitungTotalHarga(jumlah, hargaMakanan);
-            String hargaMakananFormatted = "Rp. " + totalHarga.ToString("#.##0");
-            label4.Text = hargaMakananFormatted;
-            //label4.Text = totalHarga.ToString();
         }
 
         private void label4_Click(object sender, EventArgs e)
