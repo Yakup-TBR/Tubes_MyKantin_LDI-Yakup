@@ -17,7 +17,7 @@ namespace MyKantin
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new Pembayaran());
+            Application.Run(new Menu_Makanan());
            
         }
     }
