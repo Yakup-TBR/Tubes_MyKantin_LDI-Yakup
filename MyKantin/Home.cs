@@ -118,7 +118,7 @@ namespace MyKantin
         {
             if (true)
             {
-                new Terakhir_Pesan().Show();
+                new Terakhir_PesanMakanan().Show();
                 this.Hide();
 
             }

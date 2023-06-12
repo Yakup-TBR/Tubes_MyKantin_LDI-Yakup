@@ -323,7 +323,6 @@ C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update 
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.AssemblyReference.cache
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.SuggestedBindingRedirects.cache
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Detail_Makanan.resources
-C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit.resources
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Home.resources
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Keranjang.resources
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Login.resources
@@ -334,9 +333,12 @@ C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update 
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Profile.resources
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Properties.Resources.resources
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Status_Bayar.resources
-C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Terakhir_Pesan.resources
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.GenerateResource.cache
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CoreCompileInputs.cache
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.exe
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pdb
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Detail_Minuman.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit_Makanan.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit_Minuman.resources
+C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Terakhir_PesanMakanan.resources
