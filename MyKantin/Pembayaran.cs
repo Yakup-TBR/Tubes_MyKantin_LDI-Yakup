@@ -41,7 +41,15 @@ namespace MyKantin
         }
 
 
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Status_Bayar().Show();
+                this.Hide();
 
+            }
+        }
 
         private void labelPilihPembayaran_Click(object sender, EventArgs e)
         {
@@ -55,15 +63,7 @@ namespace MyKantin
 
         }
 
-        private void pictureBox10_Click(object sender, EventArgs e)
-        {
-            if (true)
-            {
-                new Status_Bayar().Show();
-                this.Hide();
-
-            }
-        }
+       
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
