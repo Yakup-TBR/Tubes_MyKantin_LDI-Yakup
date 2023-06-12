@@ -149,6 +149,37 @@ namespace MyKantin
             label21.Text = "";
         }
 
+        private void label12_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                // Membuat objek Pembayaran
+                Pembayaran pembayaranForm = new Pembayaran();
+
+                // Mengirim nilai diskon dan total harga setelah diskon ke form Pembayaran
+                pembayaranForm.SetDiskon(label21.Text, label19.Text);
+
+                // Menampilkan form Pembayaran
+                pembayaranForm.Show();
+                this.Hide();
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Detail_Makanan().Show();
+                this.Hide();
+
+            }
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+           
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -171,41 +202,11 @@ namespace MyKantin
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            if (true)
-            {
-                new Detail_Makanan().Show();
-                this.Hide();
+        
 
-            }
-        }
+        
 
-        private void pictureBox16_Click(object sender, EventArgs e)
-        {
-            if (true)
-            {
-                new Pembayaran().Show();
-                this.Hide();
-
-            }
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-            if (true)
-            {
-                // Membuat objek Pembayaran
-                Pembayaran pembayaranForm = new Pembayaran();
-
-                // Mengirim nilai diskon dan total harga setelah diskon ke form Pembayaran
-                pembayaranForm.SetDiskon(label21.Text, label19.Text);
-
-                // Menampilkan form Pembayaran
-                pembayaranForm.Show();
-                this.Hide();
-            }
-        }
+       
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {

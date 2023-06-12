@@ -18,49 +18,63 @@ namespace MyKantin
 {
     public partial class Detail_Makanan : Form
     {
+        private int idProduk;
+
+        public int IdProduk
+        {
+            get { return idProduk; }
+            set { idProduk = value; }
+        }
         public Detail_Makanan()
         {
             InitializeComponent();
         }
 
-        public MySqlConnection GetConnection()
+        private MySqlConnection GetConnection()
         {
-            string connectionString = "server=127.0.0.1;database=mykantin;user=root;password=";
-            MySqlConnection connection = new MySqlConnection(connectionString);
-            return connection;
+            string connectionString = "server=127.0.0.1; user=root; password=; database=mykantin"; // Ganti dengan connection string Anda
+            return new MySqlConnection(connectionString);
         }
+
 
         private void Detail_Makanan_Load(object sender, EventArgs e)
         {
             MySqlConnection connection = GetConnection();
-            string query = "SELECT harga_produk, gambar_produk, deskripsi_produk FROM produk_tbl WHERE id_produk = 0002"; 
 
-            MySqlCommand command = new MySqlCommand(query, connection);
-            connection.Open();
-
-            MySqlDataReader reader = command.ExecuteReader();
-            if (reader.Read())
+            try
             {
-                string harga = reader.GetString("harga_produk");
-                //string gambar = reader.GetString("gambar_produk");
-                string deskripsi = reader.GetString("deskripsi_produk");
-                byte[] imageData = (byte[])reader["gambar_produk"];
+                string query = $"SELECT nama_produk,harga_produk, gambar_produk, deskripsi_produk FROM produk_tbl WHERE id_produk = {IdProduk}";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
 
-                if (imageData != null && imageData.Length > 0)
+                if (reader.Read())
                 {
-                    using (MemoryStream memoryStream = new MemoryStream(imageData))
-                    {
-                        pictureBox1.Image = Image.FromStream(memoryStream);
-                    }
+                    string namaProduk = reader.GetString("nama_produk");
+                    decimal harga = reader.GetDecimal("harga_produk");
+                    byte[] gambarBytes = (byte[])reader["gambar_produk"];
+                    string deskripsi = reader.GetString("deskripsi_produk");
+
+                    label1.Text = harga.ToString("C");
+                    label4.Text = harga.ToString("C");
+                    label2.Text = "About " + namaProduk;
+                    pictureBox1.Image = ByteArrayToImage(gambarBytes);
+                    label3.Text = deskripsi;
                 }
 
-                label1.Text = "Rp. " + harga;
-                //pictureBox1.ImageLocation = gambar;
-                label3.Text = deskripsi;
+                connection.Close();
             }
-
-            reader.Close();
-            connection.Close();
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+        private Image ByteArrayToImage(byte[] byteArray)
+        {
+            using (var stream = new System.IO.MemoryStream(byteArray))
+            {
+                return Image.FromStream(stream);
+            }
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -193,6 +207,11 @@ namespace MyKantin
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

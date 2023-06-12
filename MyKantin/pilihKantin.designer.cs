@@ -57,18 +57,20 @@
             this.labelPilihPembayaran.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelPilihPembayaran.AutoSize = true;
             this.labelPilihPembayaran.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPilihPembayaran.Location = new System.Drawing.Point(186, 26);
+            this.labelPilihPembayaran.Location = new System.Drawing.Point(140, 21);
+            this.labelPilihPembayaran.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPilihPembayaran.Name = "labelPilihPembayaran";
-            this.labelPilihPembayaran.Size = new System.Drawing.Size(103, 25);
+            this.labelPilihPembayaran.Size = new System.Drawing.Size(83, 21);
             this.labelPilihPembayaran.TabIndex = 10;
             this.labelPilihPembayaran.Text = "Merchants";
             // 
             // gambar_maning
             // 
             this.gambar_maning.Image = global::MyKantin.Properties.Resources.Kedai_ma_ning_pilij;
-            this.gambar_maning.Location = new System.Drawing.Point(3, 311);
+            this.gambar_maning.Location = new System.Drawing.Point(2, 250);
+            this.gambar_maning.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gambar_maning.Name = "gambar_maning";
-            this.gambar_maning.Size = new System.Drawing.Size(204, 148);
+            this.gambar_maning.Size = new System.Drawing.Size(153, 120);
             this.gambar_maning.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.gambar_maning.TabIndex = 1;
             this.gambar_maning.TabStop = false;
@@ -77,9 +79,10 @@
             // gambar_mbahnjontor
             // 
             this.gambar_mbahnjontor.Image = global::MyKantin.Properties.Resources.mbahJontor;
-            this.gambar_mbahnjontor.Location = new System.Drawing.Point(3, 157);
+            this.gambar_mbahnjontor.Location = new System.Drawing.Point(2, 126);
+            this.gambar_mbahnjontor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gambar_mbahnjontor.Name = "gambar_mbahnjontor";
-            this.gambar_mbahnjontor.Size = new System.Drawing.Size(204, 148);
+            this.gambar_mbahnjontor.Size = new System.Drawing.Size(153, 120);
             this.gambar_mbahnjontor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.gambar_mbahnjontor.TabIndex = 2;
             this.gambar_mbahnjontor.TabStop = false;
@@ -88,9 +91,10 @@
             // gambar_omjenggot
             // 
             this.gambar_omjenggot.Image = global::MyKantin.Properties.Resources.omJenggot;
-            this.gambar_omjenggot.Location = new System.Drawing.Point(213, 311);
+            this.gambar_omjenggot.Location = new System.Drawing.Point(159, 250);
+            this.gambar_omjenggot.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gambar_omjenggot.Name = "gambar_omjenggot";
-            this.gambar_omjenggot.Size = new System.Drawing.Size(204, 148);
+            this.gambar_omjenggot.Size = new System.Drawing.Size(153, 120);
             this.gambar_omjenggot.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.gambar_omjenggot.TabIndex = 3;
             this.gambar_omjenggot.TabStop = false;
@@ -99,9 +103,10 @@
             // gambar_jepang
             // 
             this.gambar_jepang.Image = global::MyKantin.Properties.Resources.kedai_pilih;
-            this.gambar_jepang.Location = new System.Drawing.Point(213, 157);
+            this.gambar_jepang.Location = new System.Drawing.Point(159, 126);
+            this.gambar_jepang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gambar_jepang.Name = "gambar_jepang";
-            this.gambar_jepang.Size = new System.Drawing.Size(204, 144);
+            this.gambar_jepang.Size = new System.Drawing.Size(153, 117);
             this.gambar_jepang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.gambar_jepang.TabIndex = 4;
             this.gambar_jepang.TabStop = false;
@@ -110,9 +115,10 @@
             // gambar_emak
             // 
             this.gambar_emak.Image = global::MyKantin.Properties.Resources.DAPOER_EMAKQ_pilih;
-            this.gambar_emak.Location = new System.Drawing.Point(3, 3);
+            this.gambar_emak.Location = new System.Drawing.Point(2, 2);
+            this.gambar_emak.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gambar_emak.Name = "gambar_emak";
-            this.gambar_emak.Size = new System.Drawing.Size(204, 144);
+            this.gambar_emak.Size = new System.Drawing.Size(153, 117);
             this.gambar_emak.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.gambar_emak.TabIndex = 5;
             this.gambar_emak.TabStop = false;
@@ -121,9 +127,10 @@
             // gambar_yummy
             // 
             this.gambar_yummy.Image = global::MyKantin.Properties.Resources.Kedai_yummy_pilih;
-            this.gambar_yummy.Location = new System.Drawing.Point(213, 3);
+            this.gambar_yummy.Location = new System.Drawing.Point(159, 2);
+            this.gambar_yummy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gambar_yummy.Name = "gambar_yummy";
-            this.gambar_yummy.Size = new System.Drawing.Size(204, 148);
+            this.gambar_yummy.Size = new System.Drawing.Size(153, 120);
             this.gambar_yummy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.gambar_yummy.TabIndex = 6;
             this.gambar_yummy.TabStop = false;
@@ -138,9 +145,10 @@
             this.flowLayoutPanel1.Controls.Add(this.gambar_jepang);
             this.flowLayoutPanel1.Controls.Add(this.gambar_maning);
             this.flowLayoutPanel1.Controls.Add(this.gambar_omjenggot);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(36, 142);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(27, 115);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(434, 531);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(326, 431);
             this.flowLayoutPanel1.TabIndex = 14;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint_1);
             // 
@@ -148,18 +156,20 @@
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.Window;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(47, 88);
+            this.textBox1.Location = new System.Drawing.Point(35, 72);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(324, 15);
+            this.textBox1.Size = new System.Drawing.Size(243, 13);
             this.textBox1.TabIndex = 25;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = global::MyKantin.Properties.Resources.search_bar;
-            this.pictureBox8.Location = new System.Drawing.Point(36, 54);
+            this.pictureBox8.Location = new System.Drawing.Point(27, 44);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(416, 79);
+            this.pictureBox8.Size = new System.Drawing.Size(312, 64);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 16;
             this.pictureBox8.TabStop = false;
@@ -174,20 +184,21 @@
             this.guna2ImageButton1.ImageOffset = new System.Drawing.Point(0, 0);
             this.guna2ImageButton1.ImageRotate = 0F;
             this.guna2ImageButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.guna2ImageButton1.Location = new System.Drawing.Point(414, 80);
+            this.guna2ImageButton1.Location = new System.Drawing.Point(310, 65);
+            this.guna2ImageButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2ImageButton1.Name = "guna2ImageButton1";
             this.guna2ImageButton1.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.guna2ImageButton1.Size = new System.Drawing.Size(26, 23);
+            this.guna2ImageButton1.Size = new System.Drawing.Size(20, 19);
             this.guna2ImageButton1.TabIndex = 27;
             this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(36, 22);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(27, 18);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 27);
+            this.pictureBox1.Size = new System.Drawing.Size(26, 22);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
@@ -195,10 +206,10 @@
             // 
             // pilihKantin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(482, 713);
+            this.ClientSize = new System.Drawing.Size(362, 579);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.guna2ImageButton1);
             this.Controls.Add(this.textBox1);
@@ -206,6 +217,7 @@
             this.Controls.Add(this.labelPilihPembayaran);
             this.Controls.Add(this.pictureBox8);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "pilihKantin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

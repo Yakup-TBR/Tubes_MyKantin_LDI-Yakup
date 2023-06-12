@@ -45,12 +45,12 @@ namespace MyKantin
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if (true)
-            {
-                new Detail_Makanan().Show();
-                this.Hide();
+            int idProduk = 0002; // ID Produk untuk makanan yang dipilih dari database
 
-            }
+            Detail_Makanan detailMakanan = new Detail_Makanan();
+            detailMakanan.IdProduk = idProduk;
+            detailMakanan.Show();
+            this.Hide();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
@@ -157,27 +157,52 @@ namespace MyKantin
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (true)
-            {
-                new Detail_Makanan().Show();
-                this.Hide();
+            int idProduk = 0014; // ID Produk untuk makanan yang dipilih dari database
 
-            }
+            Detail_Makanan detailMakanan = new Detail_Makanan();
+            detailMakanan.IdProduk = idProduk;
+            detailMakanan.Show();
+            this.Hide();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            int idProduk = 0003; // ID Produk untuk makanan yang dipilih dari database
 
+            Detail_Makanan detailMakanan = new Detail_Makanan();
+            detailMakanan.IdProduk = idProduk;
+            detailMakanan.Show();
+            this.Hide();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+            int idProduk = 0004; // ID Produk untuk makanan yang dipilih dari database
 
+            Detail_Makanan detailMakanan = new Detail_Makanan();
+            detailMakanan.IdProduk = idProduk;
+            detailMakanan.Show();
+            this.Hide();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            int idProduk = 0005; // ID Produk untuk makanan yang dipilih dari database
 
+            Detail_Makanan detailMakanan = new Detail_Makanan();
+            detailMakanan.IdProduk = idProduk;
+            detailMakanan.Show();
+            this.Hide();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            int idProduk = 0006; // ID Produk untuk makanan yang dipilih dari database
+
+            Detail_Makanan detailMakanan = new Detail_Makanan();
+            detailMakanan.IdProduk = idProduk;
+            detailMakanan.Show();
+            this.Hide();
         }
     }
 
