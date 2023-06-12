@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pembayaran));
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -77,7 +78,6 @@
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.White;
             this.pictureBox9.Image = global::MyKantin.Properties.Resources.c;
-
             this.pictureBox9.Location = new System.Drawing.Point(17, 387);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox9.Name = "pictureBox9";
