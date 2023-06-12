@@ -105,7 +105,6 @@ namespace MyKantin
         }
 
         private int totalHarga = 0;
-       
 
         private void label17_Click(object sender, EventArgs e)
         {
@@ -121,21 +120,28 @@ namespace MyKantin
                 {
                     diskon = totalHarga * 10 / 100;
                 }
+                else
+                {
+                    throw new Exception("Kode promo salah");
+                }
 
                 // Mengupdate label21 dengan hasil diskon
                 label21.Text = "Rp       -" + diskon.ToString("N0");
+                label21.ForeColor = Color.Black; // Mengubah warna teks menjadi hitam
 
                 // Menghitung total harga setelah diskon
                 int totalHargaSetelahDiskon = totalHarga - diskon;
                 label19.Text = totalHargaSetelahDiskon.ToString("N0");
             }
-            catch (FormatException)
+            catch (Exception ex)
             {
-                // Mengupdate label21 dengan pesan kesalahan format angka
-                label21.Text = "Kesalahan format angka";
+                // Mengupdate label21 dengan pesan kesalahan kode promo
+                label21.Text = ex.Message;
+                label21.ForeColor = Color.Red; // Mengubah warna teks menjadi merah
             }
-
         }
+
+
 
         private void pictureBox17_Click(object sender, EventArgs e)
         {
