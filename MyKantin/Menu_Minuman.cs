@@ -36,7 +36,12 @@ namespace MyKantin
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                new Detail_Minuman().Show();
+                this.Hide();
 
+            }
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)

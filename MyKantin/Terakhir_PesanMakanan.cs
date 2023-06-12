@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace MyKantin
 {
-    public partial class Favorit : Form
+    public partial class Terakhir_PesanMakanan : Form
     {
-        public Favorit()
+        public Terakhir_PesanMakanan()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -28,6 +23,7 @@ namespace MyKantin
             {
                 new Profile().Show();
                 this.Hide();
+
             }
         }
     }

@@ -100,11 +100,23 @@
     <Compile Include="Detail_Makanan.Designer.cs">
       <DependentUpon>Detail_Makanan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Favorit.cs">
+    <Compile Include="Detail_Minuman.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Favorit.Designer.cs">
-      <DependentUpon>Favorit.cs</DependentUpon>
+    <Compile Include="Detail_Minuman.Designer.cs">
+      <DependentUpon>Detail_Minuman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Favorit_Makanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Favorit_Makanan.Designer.cs">
+      <DependentUpon>Favorit_Makanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Favorit_Minuman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Favorit_Minuman.Designer.cs">
+      <DependentUpon>Favorit_Minuman.cs</DependentUpon>
     </Compile>
     <Compile Include="Keranjang.cs">
       <SubType>Form</SubType>
@@ -162,17 +174,23 @@
     <Compile Include="Status_Bayar.Designer.cs">
       <DependentUpon>Status_Bayar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Terakhir_Pesan.cs">
+    <Compile Include="Terakhir_PesanMakanan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Terakhir_Pesan.Designer.cs">
-      <DependentUpon>Terakhir_Pesan.cs</DependentUpon>
+    <Compile Include="Terakhir_PesanMakanan.Designer.cs">
+      <DependentUpon>Terakhir_PesanMakanan.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Detail_Makanan.resx">
       <DependentUpon>Detail_Makanan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Favorit.resx">
-      <DependentUpon>Favorit.cs</DependentUpon>
+    <EmbeddedResource Include="Detail_Minuman.resx">
+      <DependentUpon>Detail_Minuman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Favorit_Makanan.resx">
+      <DependentUpon>Favorit_Makanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Favorit_Minuman.resx">
+      <DependentUpon>Favorit_Minuman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -211,8 +229,8 @@
     <EmbeddedResource Include="Status_Bayar.resx">
       <DependentUpon>Status_Bayar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Terakhir_Pesan.resx">
-      <DependentUpon>Terakhir_Pesan.cs</DependentUpon>
+    <EmbeddedResource Include="Terakhir_PesanMakanan.resx">
+      <DependentUpon>Terakhir_PesanMakanan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="packages.config" />

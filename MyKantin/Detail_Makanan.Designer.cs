@@ -253,7 +253,6 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(362, 579);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -268,6 +267,7 @@
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Detail_Makanan";
