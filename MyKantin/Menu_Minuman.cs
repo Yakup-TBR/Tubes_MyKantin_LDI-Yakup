@@ -18,30 +18,9 @@ namespace MyKantin
         MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=");
         MySqlCommand command;
         MySqlDataAdapter da;
-
         public Menu_Minuman()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            if (true)
-            {
-                new Menu_Makanan().Show();
-                this.Hide();
-
-            }
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            if (true)
-            {
-                new Detail_Minuman().Show();
-                this.Hide();
-
-            }
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -54,39 +33,24 @@ namespace MyKantin
             }
         }
 
-        private void pictureBox6_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
+            if (true)
+            {
+                new Menu_Makanan().Show();
+                this.Hide();
 
+            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            int idProduk = 0016; // ID Produk untuk makanan yang dipilih dari database
 
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            Detail_Minuman detailMinuman = new Detail_Minuman();
+            detailMinuman.IdProduk = idProduk;
+            detailMinuman.Show();
+            this.Hide();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
@@ -179,5 +143,66 @@ namespace MyKantin
                 pictureBox10.Visible = true;
             }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            int idProduk = 0015; // ID Produk untuk makanan yang dipilih dari database
+
+            Detail_Minuman detailMinuman = new Detail_Minuman();
+            detailMinuman.IdProduk = idProduk;
+            detailMinuman.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            int idProduk = 0017; // ID Produk untuk makanan yang dipilih dari database
+
+            Detail_Minuman detailMinuman = new Detail_Minuman();
+            detailMinuman.IdProduk = idProduk;
+            detailMinuman.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            int idProduk = 0010; // ID Produk untuk makanan yang dipilih dari database
+
+            Detail_Minuman detailMinuman = new Detail_Minuman();
+            detailMinuman.IdProduk = idProduk;
+            detailMinuman.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            int idProduk = 0011; // ID Produk untuk makanan yang dipilih dari database
+
+            Detail_Minuman detailMinuman = new Detail_Minuman();
+            detailMinuman.IdProduk = idProduk;
+            detailMinuman.Show();
+            this.Hide();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            int idProduk = 0012; // ID Produk untuk makanan yang dipilih dari database
+
+            Detail_Minuman detailMinuman = new Detail_Minuman();
+            detailMinuman.IdProduk = idProduk;
+            detailMinuman.Show();
+            this.Hide();
+        }   
     }
 }

@@ -87,6 +87,7 @@
             this.label7.Size = new System.Drawing.Size(17, 22);
             this.label7.TabIndex = 46;
             this.label7.Text = "-";
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // label6
             // 
@@ -97,6 +98,7 @@
             this.label6.Size = new System.Drawing.Size(22, 22);
             this.label6.TabIndex = 45;
             this.label6.Text = "+";
+            this.label6.Click += new System.EventHandler(this.label6_Click_1);
             // 
             // label5
             // 
@@ -149,6 +151,7 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 40;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click_1);
             // 
             // label1
             // 
@@ -171,6 +174,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // labelPilihPembayaran
             // 
@@ -193,6 +197,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 36;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click_1);
             // 
             // pictureBox3
             // 

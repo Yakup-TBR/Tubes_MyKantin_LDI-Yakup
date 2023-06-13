@@ -22,14 +22,14 @@ namespace MyKantin
         //private decimal totalHarga;
         private decimal hargaMakanan = 10;
 
+        public Detail_Makanan()
+        {
+            InitializeComponent();
+        }
         public int IdProduk
         {
             get { return idProduk; }
             set { idProduk = value; }
-        }
-        public Detail_Makanan()
-        {
-            InitializeComponent();
         }
 
         private MySqlConnection GetConnection()
