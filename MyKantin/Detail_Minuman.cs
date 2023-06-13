@@ -32,18 +32,9 @@ namespace MyKantin
 
         private decimal hargaMakanan = 10;
 
-        private decimal hargaMinuman = 10;
-
-
-
         public Detail_Minuman()
         {
             InitializeComponent();
-        }
-        public int IdProduk
-        {
-            get { return idProduk; }
-            set { idProduk = value; }
         }
 
         private MySqlConnection GetConnection()
@@ -51,14 +42,6 @@ namespace MyKantin
             string connectionString = "server=127.0.0.1; user=root; password=; database=mykantin"; // Ganti dengan connection string Anda
             return new MySqlConnection(connectionString);
         }
-
-
-
-
-        private void Detail_Minuman_Load(object sender, EventArgs e)
-
-        private void Detail_Makanan_Load(object sender, EventArgs e)
-
 
         private void Detail_Minuman_Load(object sender, EventArgs e)
 
@@ -75,23 +58,6 @@ namespace MyKantin
                 if (reader.Read())
                 {
                     string namaProduk = reader.GetString("nama_produk");
-
-
-                    decimal hargaMinumanDB = reader.GetDecimal("harga_produk");
-                    byte[] gambarBytes = (byte[])reader["gambar_produk"];
-                    string deskripsi = reader.GetString("deskripsi_produk");
-
-                    hargaMinuman = hargaMinumanDB;
-                    label1.Text = hargaMinuman.ToString("C");
-                    label4.Text = hargaMinuman.ToString("C");
-
-                    decimal hargaMakananDB = reader.GetDecimal("harga_produk");
-                    byte[] gambarBytes = (byte[])reader["gambar_produk"];
-                    string deskripsi = reader.GetString("deskripsi_produk");
-
-                    hargaMakanan = hargaMakananDB;
-                    label1.Text = hargaMakanan.ToString("C");
-                    label4.Text = hargaMakanan.ToString("C");
 
 
                     decimal hargaMinumanDB = reader.GetDecimal("harga_produk");
@@ -125,7 +91,6 @@ namespace MyKantin
         int jumlah = 1;
         //int hargaMakanan = 10;
 
-        private void label6_Click(object sender, EventArgs e)
 
         private void label6_Click_1(object sender, EventArgs e)
 
@@ -134,8 +99,6 @@ namespace MyKantin
             UpdateTotalHarga();
             label5.Text = jumlah.ToString();
         }
-
-        private void label7_Click(object sender, EventArgs e)
 
         private void label7_Click_1(object sender, EventArgs e)
         {
@@ -156,14 +119,8 @@ namespace MyKantin
         {
             decimal totalHarga = HitungTotalHarga(jumlah, hargaMinuman);
             String hargaMinumanFormatted = "Rp. " + totalHarga.ToString();
-            label4.Text = hargaMinumanFormatted;
-
-            decimal totalHarga = HitungTotalHarga(jumlah, hargaMakanan);
-            String hargaMakananFormatted = "Rp. " + totalHarga.ToString();
-            label4.Text = hargaMakananFormatted;
-
-
-            label4.Text = totalHarga.ToString("C");
+            label10.Text = hargaMinumanFormatted;
+            label10.Text = totalHarga.ToString("C");
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -210,11 +167,6 @@ namespace MyKantin
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label5_Click(object sender, EventArgs e)
         {
         }
@@ -255,12 +207,7 @@ namespace MyKantin
 
         private void label8_Click(object sender, EventArgs e)
         {
-            if (true)
-            {
-                new Pembayaran().Show();
-                this.Hide();
 
-            }
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -288,10 +235,7 @@ namespace MyKantin
 
         }
 
-        private void label6_Click_1(object sender, EventArgs e)
-        {
-
-        }
+     
 
         private void pictureBox7_Click_1(object sender, EventArgs e)
         {
@@ -308,21 +252,43 @@ namespace MyKantin
 
         }
 
-        private void pictureBox7_Click_1(object sender, EventArgs e)
+        private void pictureBox2_Click_2(object sender, EventArgs e)
+        {
+            //like button merah
+            pictureBox2.Visible = false;
+            pictureBox4.Visible = true;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            //like button putih
+            pictureBox2.Visible = true;
+            pictureBox4.Visible = false;
+        }
+
+        private void pictureBox3_Click_2(object sender, EventArgs e)
         {
             if (true)
             {
-                new Menu_Makanan().Show();
+                new Keranjang().Show();
                 this.Hide();
 
             }
         }
 
-        private void pictureBox1_Click_1(object sender, EventArgs e)
+        private void label9_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Pembayaran().Show();
+                this.Hide();
+
+            }
+        }
+
+        private void label10_Click(object sender, EventArgs e)
         {
 
         }
-
-
     }
 }

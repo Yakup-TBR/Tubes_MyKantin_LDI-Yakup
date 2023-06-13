@@ -33,17 +33,6 @@ namespace MyKantin
             }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            int idProduk = 0015; // ID Produk untuk makanan yang dipilih dari database
-
-            Detail_Minuman detailMinuman = new Detail_Minuman();
-            detailMinuman.IdProduk = idProduk;
-            detailMinuman.Show();
-            this.Hide();
-        }
-
-
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             if (true)
@@ -54,15 +43,6 @@ namespace MyKantin
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            if (true)
-            {
-                new Menu_Makanan().Show();
-                this.Hide();
-
-            }
-        }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
