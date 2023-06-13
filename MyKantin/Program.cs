@@ -18,6 +18,8 @@ namespace MyKantin
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Menu_Minuman());
 
+            Application.Run(new Menu_Makanan());
+
            
         }
     }

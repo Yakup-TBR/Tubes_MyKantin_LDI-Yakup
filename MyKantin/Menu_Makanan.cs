@@ -205,6 +205,4 @@ namespace MyKantin
             this.Hide();
         }
     }
-
  }
-

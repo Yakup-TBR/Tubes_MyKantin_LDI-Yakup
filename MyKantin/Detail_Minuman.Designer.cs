@@ -86,6 +86,7 @@
             this.label7.Size = new System.Drawing.Size(14, 18);
             this.label7.TabIndex = 46;
             this.label7.Text = "-";
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // label6
             // 
@@ -156,6 +157,7 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 40;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click_1);
             // 
             // label1
             // 
