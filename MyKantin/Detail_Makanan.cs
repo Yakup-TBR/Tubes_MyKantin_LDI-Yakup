@@ -32,6 +32,11 @@ namespace MyKantin
             set { idProduk = value; }
         }
 
+        public static class TotalHargaManager
+        {
+            public static decimal TotalHarga { get; set; }
+        }
+
         private MySqlConnection GetConnection()
         {
             string connectionString = "server=127.0.0.1; user=root; password=; database=mykantin"; // Ganti dengan connection string Anda
@@ -80,7 +85,7 @@ namespace MyKantin
             }
         }
 
-        int jumlah = 1;
+        int jumlah = 0;
         //int hargaMakanan = 10;
         private void label6_Click(object sender, EventArgs e)
         {
@@ -91,7 +96,7 @@ namespace MyKantin
 
         private void label7_Click(object sender, EventArgs e)
         {
-            if (jumlah > 1)
+            if (jumlah >= 1)
             {
             jumlah--;
             UpdateTotalHarga();
@@ -107,6 +112,8 @@ namespace MyKantin
         private void UpdateTotalHarga()
         {
             decimal totalHarga = HitungTotalHarga(jumlah, hargaMakanan);
+            TotalHargaManager.TotalHarga = totalHarga; // Supaya harga tetap
+
             String hargaMakananFormatted = "Rp. " + totalHarga.ToString();
             label4.Text = hargaMakananFormatted;
             label4.Text = totalHarga.ToString("C");
@@ -193,7 +200,7 @@ namespace MyKantin
         {
             if(true)
             {
-                new Pembayaran().Show();
+                new Keranjang().Show();
                 this.Hide();
 
             }
@@ -203,7 +210,7 @@ namespace MyKantin
         {
             if (true)
             {
-                new Pembayaran().Show();
+                new Keranjang().Show();
                 this.Hide();
 
             }

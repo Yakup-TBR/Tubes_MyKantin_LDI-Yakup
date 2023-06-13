@@ -203,6 +203,11 @@ namespace MyKantin
             detailMinuman.IdProduk = idProduk;
             detailMinuman.Show();
             this.Hide();
-        }   
+        }
+
+        private void Menu_Minuman_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
