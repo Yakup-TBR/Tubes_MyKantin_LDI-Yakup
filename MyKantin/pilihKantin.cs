@@ -127,14 +127,14 @@ namespace MyKantin
 
             if (!string.IsNullOrWhiteSpace(searchText))
             {
-                string connectionString = "Server=127.0.0.1;Database=pilihkantin;Uid=root";
+                string connectionString = "Server=127.0.0.1;Database=mykantin;Uid=root";
                 MySqlConnection connection = new MySqlConnection(connectionString);
 
                 try
                 {
                     connection.Open();
 
-                    string query = "SELECT * FROM kantin WHERE id_kantin LIKE @keyword";
+                    string query = "SELECT * FROM kantin WHERE nama_kantin LIKE @keyword";
                     MySqlCommand command = new MySqlCommand(query, connection);
                     command.Parameters.AddWithValue("@keyword", "%" + searchText + "%");
 
@@ -144,7 +144,7 @@ namespace MyKantin
 
                     while (reader.Read())
                     {
-                        string namaKantin = reader.GetString("id_kantin");
+                        string namaKantin = reader.GetString("nama_kantin");
 
                         if (namaKantin.Equals("maning", StringComparison.OrdinalIgnoreCase))
                         {

@@ -69,22 +69,6 @@ namespace MyKantin
             {
             
             }
-
-            // if (true)
-            //{
-            //  if(textbox_username.Text == "Supri" && textBox_password.Text == "supri123")
-            //{
-            //  new Home().Show();
-            //this.Hide();
-            //}
-            //else
-            //{
-            //MessageBox.Show("Username atau password salah, silahkan coba lagi");
-            //textbox_username.Clear();
-            //textBox_password.Clear(); 
-            //textbox_username.Focus();
-            //}
-            //}
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
