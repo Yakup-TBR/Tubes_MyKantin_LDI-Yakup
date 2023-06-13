@@ -123,7 +123,6 @@ F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\M
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.AssemblyReference.cache
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.SuggestedBindingRedirects.cache
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Detail_Makanan.resources
-F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit.resources
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Home.resources
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Keranjang.resources
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Login.resources
@@ -133,7 +132,6 @@ F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\M
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.pilihKantin.resources
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Properties.Resources.resources
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Status_Bayar.resources
-F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Terakhir_Pesan.resources
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.GenerateResource.cache
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CoreCompileInputs.cache
 F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.csproj.CopyComplete
@@ -342,3 +340,7 @@ C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update 
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit_Makanan.resources
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit_Minuman.resources
 C:\Users\Yakup Asmaidy\OneDrive\Dokumen\Semester_4\Tugas Besar KPL\Tubes update database\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Terakhir_PesanMakanan.resources
+F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Detail_Minuman.resources
+F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit_Makanan.resources
+F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Favorit_Minuman.resources
+F:\Kuliah Rifqi\Semester 4\KONSTRUKSI PERANGKAT LUNAK\Tubes_MyKantin_LDI-Yakup\MyKantin\obj\Debug\MyKantin.Terakhir_PesanMakanan.resources

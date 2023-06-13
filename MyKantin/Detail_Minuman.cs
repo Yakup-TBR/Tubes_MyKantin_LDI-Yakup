@@ -18,49 +18,98 @@ namespace MyKantin
 {
     public partial class Detail_Minuman : Form
     {
+        private int idProduk;
+        //private decimal totalHarga;
+        private decimal hargaMinuman = 10;
+
+        public int IdProduk
+        {
+            get { return idProduk; }
+            set { idProduk = value; }
+        }
         public Detail_Minuman()
         {
             InitializeComponent();
         }
 
-        public MySqlConnection GetConnection()
+        private MySqlConnection GetConnection()
         {
-            string connectionString = "server=127.0.0.1;database=mykantin;user=root;password=";
-            MySqlConnection connection = new MySqlConnection(connectionString);
-            return connection;
+            string connectionString = "server=127.0.0.1; user=root; password=; database=mykantin"; // Ganti dengan connection string Anda
+            return new MySqlConnection(connectionString);
         }
 
-        private void Detail_Makanan_Load(object sender, EventArgs e)
+
+        private void Detail_Minuman_Load(object sender, EventArgs e)
         {
             MySqlConnection connection = GetConnection();
-            string query = "SELECT harga_produk, gambar_produk, deskripsi_produk FROM produk_tbl WHERE id_produk = 0002";
 
-            MySqlCommand command = new MySqlCommand(query, connection);
-            connection.Open();
-
-            MySqlDataReader reader = command.ExecuteReader();
-            if (reader.Read())
+            try
             {
-                string harga = reader.GetString("harga_produk");
-                //string gambar = reader.GetString("gambar_produk");
-                string deskripsi = reader.GetString("deskripsi_produk");
-                byte[] imageData = (byte[])reader["gambar_produk"];
+                string query = $"SELECT nama_produk,harga_produk, gambar_produk, deskripsi_produk FROM produk_tbl WHERE id_produk = {IdProduk}";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
 
-                if (imageData != null && imageData.Length > 0)
+                if (reader.Read())
                 {
-                    using (MemoryStream memoryStream = new MemoryStream(imageData))
-                    {
-                        pictureBox1.Image = Image.FromStream(memoryStream);
-                    }
+                    string namaProduk = reader.GetString("nama_produk");
+                    decimal hargaMinumanDB = reader.GetDecimal("harga_produk");
+                    byte[] gambarBytes = (byte[])reader["gambar_produk"];
+                    string deskripsi = reader.GetString("deskripsi_produk");
+
+                    hargaMinuman = hargaMinumanDB;
+                    label1.Text = hargaMinuman.ToString("C");
+                    label4.Text = hargaMinuman.ToString("C");
+                    label2.Text = "About " + namaProduk;
+                    pictureBox1.Image = ByteArrayToImage(gambarBytes);
+                    label3.Text = deskripsi;
                 }
 
-                label1.Text = "Rp. " + harga;
-                //pictureBox1.ImageLocation = gambar;
-                label3.Text = deskripsi;
+                connection.Close();
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+        private Image ByteArrayToImage(byte[] byteArray)
+        {
+            using (var stream = new System.IO.MemoryStream(byteArray))
+            {
+                return Image.FromStream(stream);
+            }
+        }
 
-            reader.Close();
-            connection.Close();
+        int jumlah = 1;
+        //int hargaMakanan = 10;
+        private void label6_Click(object sender, EventArgs e)
+        {
+            jumlah++;
+            UpdateTotalHarga();
+            label5.Text = jumlah.ToString();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            if (jumlah > 1)
+            {
+                jumlah--;
+                UpdateTotalHarga();
+                label5.Text = jumlah.ToString();
+            }
+        }
+
+        private decimal HitungTotalHarga(int jumlah, decimal hargaMinuman)
+        {
+            return jumlah * hargaMinuman;
+        }
+
+        private void UpdateTotalHarga()
+        {
+            decimal totalHarga = HitungTotalHarga(jumlah, hargaMinuman);
+            String hargaMinumanFormatted = "Rp. " + totalHarga.ToString();
+            label4.Text = hargaMinumanFormatted;
+            label4.Text = totalHarga.ToString("C");
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -105,38 +154,6 @@ namespace MyKantin
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        int jumlah = 1;
-        int hargaMakanan = 10;
-        private void label6_Click(object sender, EventArgs e)
-        {
-            jumlah++;
-            UpdateTotalHarga();
-            label5.Text = jumlah.ToString();
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-            if (jumlah > 1)
-            {
-                jumlah--;
-                UpdateTotalHarga();
-                label5.Text = jumlah.ToString();
-            }
-        }
-
-        private int HitungTotalHarga(int jumlah, int harga)
-        {
-            return jumlah * harga;
-        }
-
-        private void UpdateTotalHarga()
-        {
-            int totalHarga = HitungTotalHarga(jumlah, hargaMakanan);
-            String hargaMakananFormatted = "Rp. " + totalHarga.ToString("#.##0");
-            label4.Text = hargaMakananFormatted;
-            //label4.Text = totalHarga.ToString();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -197,11 +214,36 @@ namespace MyKantin
 
         }
 
-        private void pictureBox5_Click_1(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click_1(object sender, EventArgs e)
         {
             if (true)
             {
-                new Pembayaran().Show();
+                new Menu_Makanan().Show();
                 this.Hide();
 
             }
