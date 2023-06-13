@@ -48,7 +48,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::MyKantin.Properties.Resources.garis_abu;
+            this.pictureBox2.Image = global::MyKantin.Properties.Resources.garis_hitam;
             this.pictureBox2.Location = new System.Drawing.Point(241, 137);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(241, 18);
@@ -57,7 +57,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::MyKantin.Properties.Resources.garis_hitam;
+            this.pictureBox1.Image = global::MyKantin.Properties.Resources.garis_abu;
             this.pictureBox1.Location = new System.Drawing.Point(0, 137);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(241, 18);
@@ -69,7 +69,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DarkGray;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(291, 109);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(95, 25);
@@ -81,6 +81,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkGray;
             this.label1.Location = new System.Drawing.Point(77, 109);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 25);
@@ -119,7 +120,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::MyKantin.Properties.Resources.Bakso;
+            this.pictureBox3.Image = global::MyKantin.Properties.Resources.Air_mineral;
             this.pictureBox3.Location = new System.Drawing.Point(3, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(204, 164);
@@ -129,7 +130,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::MyKantin.Properties.Resources.Rendang;
+            this.pictureBox4.Image = global::MyKantin.Properties.Resources.EsCincau_milo;
             this.pictureBox4.Location = new System.Drawing.Point(213, 3);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(210, 164);

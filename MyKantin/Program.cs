@@ -16,11 +16,7 @@ namespace MyKantin
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu_Minuman());
-
-            Application.Run(new Menu_Makanan());
-
-           
+            Application.Run(new Home());        
         }
     }
 }

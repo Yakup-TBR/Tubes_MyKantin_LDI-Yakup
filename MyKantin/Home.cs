@@ -34,21 +34,6 @@ namespace MyKantin
 
             labelDiskon.Parent = pictureBox1;
             labelDiskon.BackColor = Color.Transparent;
-
-            /*
-            label_merchantMakanan.Parent = pictureBox2;
-            label_merchantMakanan.BackColor = Color.Transparent;
-
-
-
-            label_makananMerchant2.Parent = pictureBox3;
-            label_makananMerchant2.BackColor = Color.Transparent;
-            label_makananMerchant2.Location = new Point(330, 591); //atur posisi relatif terhadap pictureBox3
-            */
-
-
-
-
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
