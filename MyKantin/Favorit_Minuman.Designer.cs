@@ -112,29 +112,29 @@
             // 
             this.flowLayoutPanel1.Controls.Add(this.pictureBox3);
             this.flowLayoutPanel1.Controls.Add(this.pictureBox4);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(22, 161);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(29, 167);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(448, 534);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(428, 534);
             this.flowLayoutPanel1.TabIndex = 26;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::MyKantin.Properties.Resources.Air_mineral;
+            this.pictureBox3.Image = global::MyKantin.Properties.Resources.Bakso;
             this.pictureBox3.Location = new System.Drawing.Point(3, 3);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(216, 160);
+            this.pictureBox3.Size = new System.Drawing.Size(204, 164);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 17;
+            this.pictureBox3.TabIndex = 18;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::MyKantin.Properties.Resources.Brown_sugar;
-            this.pictureBox4.Location = new System.Drawing.Point(225, 3);
+            this.pictureBox4.Image = global::MyKantin.Properties.Resources.Rendang;
+            this.pictureBox4.Location = new System.Drawing.Point(213, 3);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(216, 164);
+            this.pictureBox4.Size = new System.Drawing.Size(210, 164);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 18;
+            this.pictureBox4.TabIndex = 17;
             this.pictureBox4.TabStop = false;
             // 
             // Favorit_Minuman
@@ -143,13 +143,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(482, 713);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelPilihPembayaran);
             this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Favorit_Minuman";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
