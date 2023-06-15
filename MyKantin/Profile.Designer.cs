@@ -42,6 +42,7 @@
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labelNama = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -142,7 +143,7 @@
             // 
             this.guna2PictureBox5.Image = global::MyKantin.Properties.Resources.panahProfile;
             this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(358, 430);
+            this.guna2PictureBox5.Location = new System.Drawing.Point(390, 457);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
             this.guna2PictureBox5.Size = new System.Drawing.Size(29, 23);
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -154,7 +155,7 @@
             // 
             this.guna2PictureBox4.Image = global::MyKantin.Properties.Resources.panahProfile;
             this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(358, 357);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(390, 385);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(29, 23);
             this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -166,7 +167,7 @@
             // 
             this.guna2PictureBox3.Image = global::MyKantin.Properties.Resources.riwayatProfie;
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(78, 416);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(37, 435);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.Size = new System.Drawing.Size(196, 45);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -178,7 +179,7 @@
             // 
             this.guna2PictureBox2.Image = global::MyKantin.Properties.Resources.garis_hitam;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(59, 395);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(61, 414);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(360, 15);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -189,7 +190,7 @@
             // 
             this.guna2PictureBox1.Image = global::MyKantin.Properties.Resources.favoritProfile;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(78, 344);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(37, 363);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(186, 45);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -211,6 +212,7 @@
             this.guna2CirclePictureBox2.TabIndex = 18;
             this.guna2CirclePictureBox2.TabStop = false;
             this.guna2CirclePictureBox2.UseTransparentBackground = true;
+            this.guna2CirclePictureBox2.Click += new System.EventHandler(this.guna2CirclePictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -223,12 +225,25 @@
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
+            // labelNama
+            // 
+            this.labelNama.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.labelNama.AutoSize = true;
+            this.labelNama.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNama.Location = new System.Drawing.Point(196, 305);
+            this.labelNama.Name = "labelNama";
+            this.labelNama.Size = new System.Drawing.Size(104, 25);
+            this.labelNama.TabIndex = 26;
+            this.labelNama.Text = "Rifqi Hafid";
+            this.labelNama.Click += new System.EventHandler(this.labelPilihPembayaran_Click);
+            // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(482, 713);
+            this.Controls.Add(this.labelNama);
             this.Controls.Add(this.guna2PictureBox6);
             this.Controls.Add(this.guna2PictureBox5);
             this.Controls.Add(this.guna2PictureBox4);
@@ -258,6 +273,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -277,5 +293,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox5;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
+        private System.Windows.Forms.Label labelNama;
     }
 }

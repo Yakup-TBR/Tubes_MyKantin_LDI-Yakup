@@ -174,6 +174,12 @@
     <Compile Include="Status_Bayar.Designer.cs">
       <DependentUpon>Status_Bayar.cs</DependentUpon>
     </Compile>
+    <Compile Include="TerakhirDipesanMinuman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TerakhirDipesanMinuman.Designer.cs">
+      <DependentUpon>TerakhirDipesanMinuman.cs</DependentUpon>
+    </Compile>
     <Compile Include="Terakhir_PesanMakanan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +234,9 @@
     </Compile>
     <EmbeddedResource Include="Status_Bayar.resx">
       <DependentUpon>Status_Bayar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TerakhirDipesanMinuman.resx">
+      <DependentUpon>TerakhirDipesanMinuman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Terakhir_PesanMakanan.resx">
       <DependentUpon>Terakhir_PesanMakanan.cs</DependentUpon>
@@ -492,6 +501,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statusBayar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statusBayarskrg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

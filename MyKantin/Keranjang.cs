@@ -38,8 +38,10 @@ namespace MyKantin
             Totalharga(sender, e); // Memanggil  Totalharga untuk memperbarui total quantity
         }
 
+
         private void Tombol_Kurang2(object sender, EventArgs e)
         {
+            /*
             int currentQuantity = int.Parse(label13.Text);
             if (currentQuantity > 0)
             {
@@ -47,18 +49,22 @@ namespace MyKantin
                 label13.Text = currentQuantity.ToString();
                 Totalharga(sender, e); // Memanggil  Totalharga untuk memperbarui total quantity
             }
+            */
         }
 
         private void Tombol_Tambah2(object sender, EventArgs e)
         {
+            /*
             int currentQuantity = int.Parse(label13.Text);
             currentQuantity++;
             label13.Text = currentQuantity.ToString();
             Totalharga(sender, e); // Memanggil  Totalharga untuk memperbarui total quantity
+            */
         }
 
         private void Tombol_Kurang3(object sender, EventArgs e)
         {
+            /*
             int currentQuantity = int.Parse(label15.Text);
             if (currentQuantity > 0)
             {
@@ -66,14 +72,17 @@ namespace MyKantin
                 label15.Text = currentQuantity.ToString();
                 Totalharga(sender, e); // Memanggil  Totalharga untuk memperbarui total quantity
             }
+            */
         }
 
         private void Tombol_Tambah3(object sender, EventArgs e)
         {
+            /*
             int currentQuantity = int.Parse(label15.Text);
             currentQuantity++;
             label15.Text = currentQuantity.ToString();
             Totalharga(sender, e); // Memanggil  Totalharga untuk memperbarui total quantity
+            */
         }
 
         private void Totalharga(object sender, EventArgs e)
@@ -82,11 +91,11 @@ namespace MyKantin
             {
                 // Mengambil nilai quantity dari setiap label
                 int quantity1 = int.Parse(label1.Text);
-                int quantity2 = int.Parse(label13.Text);
-                int quantity3 = int.Parse(label15.Text);
+                //int quantity2 = int.Parse(label13.Text); ////////////
+                //int quantity3 = int.Parse(label15.Text); ////////////
 
                 // Menghitung jumlah total
-                totalHarga = (quantity1 * 10000) + (quantity2 * 10000) + (quantity3 * 5000);
+                totalHarga = (quantity1 * 10000); // + (quantity2 * 10000) + (quantity3 * 5000);
 
                 // Menampilkan hasil jumlah pada label dengan tanda titik sebagai penanda ribuan
                 label19.Text = totalHarga.ToString("N0");
@@ -223,6 +232,9 @@ namespace MyKantin
 
         }
 
+        private void label6_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

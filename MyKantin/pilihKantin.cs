@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -15,58 +16,51 @@ namespace MyKantin
 {
     public partial class pilihKantin : Form
     {
+        public static string id_makan;
+
         public pilihKantin()
         {
             InitializeComponent();
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+
+        private void pilihKantin_Load(object sender, EventArgs e)
         {
-            if (true)
-            {
-                new Menu_Makanan().Show();
-                this.Hide();
-                
-            }
-        }
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-            if (true)
-            {
-                new Menu_Makanan().Show();
-                this.Hide();
-
-            }
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            if (true)
-            {
-                new Menu_Makanan().Show();
-                this.Hide();
-
-            }
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             if (true)
             {
-                new Menu_Makanan().Show();
+                id_makan = "000003";
+                Menu_Makanan menuMakan = new Menu_Makanan();
+                menuMakan.IDMakan = id_makan;
+                menuMakan.Show();
                 this.Hide();
-
             }
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void pictureBox6_Click(object sender, EventArgs e)
         {
             if (true)
             {
-                new Menu_Makanan().Show();
+                id_makan = "000001";
+                Menu_Makanan menuMakan = new Menu_Makanan();
+                menuMakan.IDMakan = id_makan;
+                menuMakan.Show();
                 this.Hide();
+            }
+        }
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                id_makan = "000002";
+                Menu_Makanan menuMakan = new Menu_Makanan();
+                menuMakan.IDMakan = id_makan;
+                menuMakan.Show();
+                this.Hide();
             }
         }
 
@@ -75,11 +69,42 @@ namespace MyKantin
 
             if (true)
             {
-                new Menu_Makanan().Show();
+                id_makan = "000005";
+                Menu_Makanan menuMakan = new Menu_Makanan();
+                menuMakan.IDMakan = id_makan;
+                menuMakan.Show();
                 this.Hide();
-
             }
         }
+
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                id_makan = "000006";
+                Menu_Makanan menuMakan = new Menu_Makanan();
+                menuMakan.IDMakan = id_makan;
+                menuMakan.Show();
+                this.Hide();
+            }
+        }
+
+        
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                id_makan = "000004";
+                Menu_Makanan menuMakan = new Menu_Makanan();
+                menuMakan.IDMakan = id_makan;
+                menuMakan.Show();
+                this.Hide();
+            }
+        }
+
+        
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
@@ -204,8 +229,6 @@ namespace MyKantin
                 gambar_emak.Visible = true;
             }
         }
-
-
 
 
         private void pictureBox1_Click_1(object sender, EventArgs e)

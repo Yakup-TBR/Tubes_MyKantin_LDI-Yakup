@@ -16,5 +16,29 @@ namespace MyKantin
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Favorit_Makanan().Show();
+                this.Hide();
+            }
+        }
+
+        public void SetDetailMinumanImage(Image image)
+        {
+            Label label = new Label();
+            label.AutoSize = false;
+            label.Size = new Size(150, 138); // Atur ukuran sesuai kebutuhan
+            label.BackgroundImage = image;
+            label.BackgroundImageLayout = ImageLayout.Zoom; // Atur tata letak gambar sesuai preferensi Anda
+            flowLayoutPanel1.Controls.Add(label);
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

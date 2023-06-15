@@ -15,6 +15,9 @@ namespace MyKantin
 {
     public partial class Menu_Makanan : Form
     {
+        public static string id_makan;
+        public string IDMakan { get; set; }
+
         MySqlConnection connection = new MySqlConnection("datasource=localhost;port=3306;username=root;password=");
         MySqlCommand command;
         MySqlDataAdapter da;
@@ -33,29 +36,50 @@ namespace MyKantin
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private MySqlConnection GetConnection()
         {
-            if (true)
-            {
-                new Menu_Minuman().Show();
-                this.Hide();
-
-            }
+            string connectionString = "server=127.0.0.1; user=root; password=; database=mykantin"; // Ganti dengan connection string Anda
+            return new MySqlConnection(connectionString);
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            int idProduk = 0002; // ID Produk untuk makanan yang dipilih dari database
+        
 
-            Detail_Makanan detailMakanan = new Detail_Makanan();
-            detailMakanan.IdProduk = idProduk;
-            detailMakanan.Show();
-            this.Hide();
+        private void Menu_Makanan_Load(object sender, EventArgs e)
+        {
+            string id_makan = IDMakan;
+
+            MySqlConnection connection = GetConnection();
+
+            try
+            {
+                string query = "SELECT nama_kantin, id_kantin FROM kantin";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    string namaKantin = reader.GetString("nama_kantin");
+                    string kantinId = reader.GetString("id_kantin");
+
+                    if (kantinId.Equals(id_makan))
+                    {
+                        label2.Text = "Menu Kantin " + namaKantin;
+                        break; // Exit the loop once the matching kantinId is found
+                    }
+                }
+
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-
+            
             string searchText = textBox1.Text.ToLower();
 
             pictureBox1.Visible = false;
@@ -143,7 +167,30 @@ namespace MyKantin
                 pictureBox5.Visible = true;
                 pictureBox10.Visible = true;
             }
+            
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                new Menu_Minuman().Show();
+                this.Hide();
+
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            int idProduk = 0002; // ID Produk untuk makanan yang dipilih dari database
+
+            Detail_Makanan detailMakanan = new Detail_Makanan();
+            detailMakanan.IdProduk = idProduk;
+            detailMakanan.Show();
+            this.Hide();
+        }
+
+        
 
         private void textBox1_TextChange(object sender, EventArgs e)
         {
@@ -203,6 +250,28 @@ namespace MyKantin
             detailMakanan.IdProduk = idProduk;
             detailMakanan.Show();
             this.Hide();
+        }
+
+        
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void labelPilihPembayaran_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
  }

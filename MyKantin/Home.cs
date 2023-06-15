@@ -1,20 +1,32 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+using System.IO;
 
 namespace MyKantin
 {
     public partial class Home : Form
     {
+        public static int id_user;
+        public int UserId { get; set; }
+
+        public static Home Instance;
+
         public Home()
         {
             InitializeComponent();
+
         }
 
         private void label_ayo_Click(object sender, EventArgs e)
@@ -27,14 +39,50 @@ namespace MyKantin
 
         }
 
+        private MySqlConnection GetConnection()
+        {
+            string connectionString = "server=127.0.0.1; user=root; password=; database=mykantin"; // Ganti dengan connection string Anda
+            return new MySqlConnection(connectionString);
+        }
+
         private void Home_Load(object sender, EventArgs e)
         {
-            labeldapatdiskon.Parent = pictureBox1;
-            labeldapatdiskon.BackColor = Color.Transparent;
+            int id_user = UserId; // Ambil nilai UserId dari properti
 
-            labelDiskon.Parent = pictureBox1;
-            labelDiskon.BackColor = Color.Transparent;
+            MySqlConnection connection = GetConnection();
+
+            try
+            {
+                string query = $"SELECT nama_user, gambar_user FROM akun WHERE id_user = {id_user}";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    string namaUser = reader.GetString("nama_user");
+                    byte[] gambarBytes = (byte[])reader["gambar_user"];
+
+                    label_selamat.Text = "Halo, " + namaUser;
+                    pictureBox7.Image = ByteArrayToImage(gambarBytes);
+
+                }
+
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                // Tangani eksepsi
+            }
         }
+        private Image ByteArrayToImage(byte[] byteArray)
+        {
+            using (var stream = new System.IO.MemoryStream(byteArray))
+            {
+                return Image.FromStream(stream);
+            }
+        }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -188,6 +236,11 @@ namespace MyKantin
                 this.Hide();
 
             }
+        }
+
+        private void label_selamat_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -31,7 +31,6 @@ namespace MyKantin
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_Makanan));
-            this.labelPilihPembayaran = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -45,6 +44,7 @@ namespace MyKantin
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -57,17 +57,6 @@ namespace MyKantin
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // labelPilihPembayaran
-            // 
-            this.labelPilihPembayaran.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.labelPilihPembayaran.AutoSize = true;
-            this.labelPilihPembayaran.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPilihPembayaran.Location = new System.Drawing.Point(125, 26);
-            this.labelPilihPembayaran.Name = "labelPilihPembayaran";
-            this.labelPilihPembayaran.Size = new System.Drawing.Size(248, 25);
-            this.labelPilihPembayaran.TabIndex = 11;
-            this.labelPilihPembayaran.Text = "Menu Kantin Kedai Yummy";
             // 
             // textBox1
             // 
@@ -186,6 +175,7 @@ namespace MyKantin
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 12;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox7
             // 
@@ -219,10 +209,23 @@ namespace MyKantin
             this.flowLayoutPanel1.Controls.Add(this.pictureBox5);
             this.flowLayoutPanel1.Controls.Add(this.pictureBox10);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(24, 194);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(437, 492);
             this.flowLayoutPanel1.TabIndex = 37;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(173, 27);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(123, 25);
+            this.label2.TabIndex = 38;
+            this.label2.Text = "Menu Kantin";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Menu_Makanan
             // 
@@ -230,12 +233,12 @@ namespace MyKantin
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(483, 713);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.labelPilihPembayaran);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -264,7 +267,6 @@ namespace MyKantin
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label labelPilihPembayaran;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox9;
@@ -277,5 +279,6 @@ namespace MyKantin
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label2;
     }
 }

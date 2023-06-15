@@ -37,28 +37,26 @@
             this.label_all2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label_merchantMakanan = new System.Windows.Forms.Label();
-            this.labeldapatdiskon = new System.Windows.Forms.Label();
-            this.labelDiskon = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -70,18 +68,19 @@
             this.label_selamat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_selamat.Location = new System.Drawing.Point(30, 28);
             this.label_selamat.Name = "label_selamat";
-            this.label_selamat.Size = new System.Drawing.Size(182, 25);
+            this.label_selamat.Size = new System.Drawing.Size(149, 25);
             this.label_selamat.TabIndex = 0;
-            this.label_selamat.Text = "Selamat pagi, Supri\r\n";
+            this.label_selamat.Text = "Halo, Rifqi Hafid";
+            this.label_selamat.Click += new System.EventHandler(this.label_selamat_Click);
             // 
             // label_ayo
             // 
             this.label_ayo.AutoSize = true;
             this.label_ayo.Location = new System.Drawing.Point(33, 53);
             this.label_ayo.Name = "label_ayo";
-            this.label_ayo.Size = new System.Drawing.Size(91, 35);
+            this.label_ayo.Size = new System.Drawing.Size(83, 35);
             this.label_ayo.TabIndex = 1;
-            this.label_ayo.Text = "Ayo sarapan!\r\n\r\n";
+            this.label_ayo.Text = "Ayo makan!\r\n\r\n";
             this.label_ayo.UseCompatibleTextRendering = true;
             this.label_ayo.Click += new System.EventHandler(this.label_ayo_Click);
             // 
@@ -151,28 +150,48 @@
             this.label_merchantMakanan.Text = "Dapoer EmakQ";
             this.label_merchantMakanan.Click += new System.EventHandler(this.label_merchantMakanan_Click);
             // 
-            // labeldapatdiskon
+            // pictureBox7
             // 
-            this.labeldapatdiskon.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labeldapatdiskon.ForeColor = System.Drawing.Color.White;
-            this.labeldapatdiskon.Location = new System.Drawing.Point(12, 9);
-            this.labeldapatdiskon.Name = "labeldapatdiskon";
-            this.labeldapatdiskon.Size = new System.Drawing.Size(171, 44);
-            this.labeldapatdiskon.TabIndex = 21;
-            this.labeldapatdiskon.Text = "Dapatkan diskon special untuk hari ini!";
-            this.labeldapatdiskon.Click += new System.EventHandler(this.labeldapatdiskon_Click);
+            this.pictureBox7.Image = global::MyKantin.Properties.Resources.muka;
+            this.pictureBox7.Location = new System.Drawing.Point(286, 14);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(42, 42);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 16;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // labelDiskon
+            // pictureBox6
             // 
-            this.labelDiskon.BackColor = System.Drawing.Color.Transparent;
-            this.labelDiskon.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDiskon.ForeColor = System.Drawing.Color.White;
-            this.labelDiskon.Location = new System.Drawing.Point(309, 43);
-            this.labelDiskon.Name = "labelDiskon";
-            this.labelDiskon.Size = new System.Drawing.Size(136, 63);
-            this.labelDiskon.TabIndex = 22;
-            this.labelDiskon.Text = "Up to 50%";
-            this.labelDiskon.Click += new System.EventHandler(this.labelDiskon_Click);
+            this.pictureBox6.Image = global::MyKantin.Properties.Resources.TAS;
+            this.pictureBox6.Location = new System.Drawing.Point(198, 14);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(43, 42);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 2;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::MyKantin.Properties.Resources.merchant;
+            this.pictureBox5.Location = new System.Drawing.Point(117, 14);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(37, 42);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::MyKantin.Properties.Resources.Home;
+            this.pictureBox4.Location = new System.Drawing.Point(30, 14);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(46, 42);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
             // 
             // pictureBox11
             // 
@@ -218,49 +237,6 @@
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::MyKantin.Properties.Resources.muka;
-            this.pictureBox7.Location = new System.Drawing.Point(286, 14);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(42, 42);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 16;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::MyKantin.Properties.Resources.TAS;
-            this.pictureBox6.Location = new System.Drawing.Point(198, 14);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(43, 42);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::MyKantin.Properties.Resources.merchant;
-            this.pictureBox5.Location = new System.Drawing.Point(117, 14);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(37, 42);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::MyKantin.Properties.Resources.Home;
-            this.pictureBox4.Location = new System.Drawing.Point(30, 14);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(46, 42);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::MyKantin.Properties.Resources.sate_Ayam_lengkap;
@@ -301,8 +277,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(482, 713);
-            this.Controls.Add(this.labelDiskon);
-            this.Controls.Add(this.labeldapatdiskon);
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
@@ -324,14 +298,14 @@
             this.Load += new System.EventHandler(this.Home_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -360,8 +334,6 @@
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.Label labeldapatdiskon;
-        private System.Windows.Forms.Label labelDiskon;
         public System.Windows.Forms.Label label_merchantMakanan;
     }
 }

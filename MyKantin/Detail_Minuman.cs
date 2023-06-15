@@ -30,6 +30,8 @@ namespace MyKantin
             set { idProduk = value; }
         }
 
+        public Image FavoritImage { get; private set; }
+
         private decimal hargaMakanan = 10;
 
         public Detail_Minuman()
@@ -180,9 +182,34 @@ namespace MyKantin
 
         private void pictureBox4_Click_1(object sender, EventArgs e)
         {
-            //like button putih
+            // like button putih
             pictureBox2.Visible = true;
             pictureBox4.Visible = false;
+            MySqlConnection connection = GetConnection();
+            try
+            {
+                string query = $"SELECT gambar_produk FROM produk_tbl WHERE id_produk = {IdProduk}";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    byte[] gambarBytes = (byte[])reader["gambar_produk"];
+                    FavoritImage = ByteArrayToImage(gambarBytes);
+
+                    Favorit_Minuman favoritForm = new Favorit_Minuman();
+                    favoritForm.SetDetailMinumanImage(pictureBox1.Image);
+                    favoritForm.Show();
+                    this.Hide();
+                }
+
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
 
         private void pictureBox3_Click_1(object sender, EventArgs e)

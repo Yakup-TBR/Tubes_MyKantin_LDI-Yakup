@@ -14,6 +14,9 @@ namespace MyKantin
 {
     public partial class Login : Form
     {
+        public static int id_user;
+        
+
         public Login()
         {
             InitializeComponent();
@@ -37,11 +40,12 @@ namespace MyKantin
         private void buttonLogin_Click(object sender, EventArgs e)
         {
             string mysqlCon = "server=127.0.0.1; user=root; password=; database=mykantin";
-            try { 
-            MySqlConnection mySqlConnection = new MySqlConnection(mysqlCon);
+            try
+            {
+                MySqlConnection mySqlConnection = new MySqlConnection(mysqlCon);
 
-            string username = textbox_username.Text.ToString();
-            string password = textBox_password.Text.ToString();
+                string username = textbox_username.Text.ToString();
+                string password = textBox_password.Text.ToString();
                 if (String.IsNullOrEmpty(username) || String.IsNullOrEmpty(password))
                 {
                     MessageBox.Show("no empty fields allowed");
@@ -49,25 +53,31 @@ namespace MyKantin
                 else
                 {
                     mySqlConnection.Open();
-                    MySqlCommand mySqlCommand = new MySqlCommand("select * from login", mySqlConnection);
-                    MySqlDataReader reader = mySqlCommand.ExecuteReader();
-                    while (reader.Read())
+                    MySqlCommand mySqlCommand = new MySqlCommand($"SELECT id_user FROM akun WHERE username = '{username}' AND password = '{password}'", mySqlConnection);
+                    MySqlDataReader dataReader = mySqlCommand.ExecuteReader();
+                    if (dataReader.Read())
                     {
-                        if (username.Equals(reader.GetString("username")) && password.Equals(reader.GetString("password")))
-                        {
-                            new Home().Show();
-                            this.Hide();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Invalid Login");
-                        }
+                        id_user = dataReader.GetInt32("id_user");
+                        dataReader.Close();
+
+                        Home homeForm = new Home();
+                        Profile profileForm = new Profile();
+                        homeForm.UserId = id_user; // Set nilai UserId pada form Home
+                        profileForm.UserId = id_user; // Set nilai UserId pada form Profile
+                        homeForm.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        dataReader.Close();
+                        MessageBox.Show("Username atau password salah");
                     }
                     mySqlConnection.Close();
                 }
-            }catch (Exception ex) 
+            }
+            catch (Exception ex)
             {
-            
+                // Tangani eksepsi
             }
         }
 

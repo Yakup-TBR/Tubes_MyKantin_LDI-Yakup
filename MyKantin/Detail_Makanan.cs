@@ -19,7 +19,6 @@ namespace MyKantin
     public partial class Detail_Makanan : Form
     {
         private int idProduk;
-        //private decimal totalHarga;
         private decimal hargaMakanan = 10;
 
         public Detail_Makanan()
@@ -31,6 +30,8 @@ namespace MyKantin
             get { return idProduk; }
             set { idProduk = value; }
         }
+
+        public Image FavoritImage { get; private set; }
 
         public static class TotalHargaManager
         {
@@ -64,7 +65,7 @@ namespace MyKantin
 
                     hargaMakanan = hargaMakananDB;
                     label1.Text = hargaMakanan.ToString("C");
-                    label4.Text = hargaMakanan.ToString("C");
+                    //label4.Text = hargaMakanan.ToString("C");
                     label2.Text = "About " + namaProduk;
                     pictureBox1.Image = ByteArrayToImage(gambarBytes);
                     label3.Text = deskripsi;
@@ -165,7 +166,12 @@ namespace MyKantin
 
         private void label4_Click(object sender, EventArgs e)
         {
-          
+            if (true)
+            {
+                new Keranjang().Show();
+                this.Hide();
+
+            }
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -180,10 +186,34 @@ namespace MyKantin
         }
 
         private void pictureBox4_Click_1(object sender, EventArgs e)
-        {
-            //like button putih
+        {// like button putih
             pictureBox2.Visible = true;
             pictureBox4.Visible = false;
+            MySqlConnection connection = GetConnection();
+            try
+            {
+                string query = $"SELECT gambar_produk FROM produk_tbl WHERE id_produk = {IdProduk}";
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                connection.Open();
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    byte[] gambarBytes = (byte[])reader["gambar_produk"];
+                    FavoritImage = ByteArrayToImage(gambarBytes);
+
+                    Favorit_Makanan favoritForm = new Favorit_Makanan();
+                    favoritForm.SetDetailMakananImage(pictureBox1.Image);
+                    favoritForm.Show(); 
+                    this.Hide(); 
+                }
+
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
 
         private void pictureBox3_Click_1(object sender, EventArgs e)
